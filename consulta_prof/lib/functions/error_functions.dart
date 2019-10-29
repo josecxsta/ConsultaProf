@@ -26,11 +26,11 @@ CatcherOptions debugOptions = CatcherOptions(
       backgroundColor: Colors.red,
       textColor: Colors.white,
     ),
-    HttpHandler(
-      HttpRequestType.post,
-      Uri.parse(ApiUrlService().urlReportLog()),
-      printLogs: true,
-    ),
+//    HttpHandler(
+//      HttpRequestType.post,
+//      Uri.parse(ApiUrlService().urlReportLog()),
+//      printLogs: true,
+//    ),
   ],
   localizationOptions: [localization],
   customParameters: customParameters,
@@ -46,11 +46,11 @@ CatcherOptions releaseOptions = CatcherOptions(
       customMessage:
           'Ocorreu um erro, estaremos corrigindo o mais breve possível.',
     ),
-    HttpHandler(
-      HttpRequestType.post,
-      Uri.parse(ApiUrlService().urlReportLog()),
-      printLogs: true,
-    ),
+//    HttpHandler(
+//      HttpRequestType.post,
+//      Uri.parse(ApiUrlService().urlReportLog()),
+//      printLogs: true,
+//    ),
   ],
   localizationOptions: [localization],
   customParameters: customParameters,

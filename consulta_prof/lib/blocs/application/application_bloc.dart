@@ -19,7 +19,7 @@ class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
   @override
   Stream<ApplicationState> mapEventToState(ApplicationEvent event) async* {
     if (event is ApplicationStartEvent) {
-      var token = await TokenRepository().getToken();
+      var token = null;//await TokenRepository().getToken();
       if (token == null) {
         yield ApplicationState.unauthenticated();
       } else {

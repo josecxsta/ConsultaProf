@@ -25,19 +25,7 @@ class LoginService {
   }
 
   Future<LoginModel> registreLogin({String usuario, String senha, String matricula, }) async {
-    var url = ApiUrlService().getApi('Login/RegistreLogin');
-    var apiResponse = await ApiService().post(
-      url,
-      body: {
-        "Login": usuario,
-        "Senha": senha,
-        "Matricula": matricula,
-      },
-    );
-
-    var map = apiResponse.data as Map;
-    trateApiException(map);
-    return _mapeieLoginModel(map);
+    return LoginModel(user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
   }
 
   LoginModel _mapeieLoginModel(Map map) {
