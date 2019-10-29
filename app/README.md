@@ -1,7 +1,5 @@
 # consulta_prof
 
-[![Build Status](https://travis-ci.com/gustavohenriquerssilva/consulta_prof.svg?branch=master)](https://travis-ci.com/gustavohenriquerssilva/consulta_prof
-
 A new Flutter project.
 
 ## Getting Started
