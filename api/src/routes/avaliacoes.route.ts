@@ -18,7 +18,7 @@ discenteRoute.param("id", function (req: any, res, next, id) {
 
 discenteRoute.route("/:id")
     .get(async function (req: any, res) {
-        res.send(await Discente.getById(req.discente.id));
+        res.send({});
     });
 
 export default discenteRoute;
