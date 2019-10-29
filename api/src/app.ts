@@ -21,7 +21,8 @@ app.use(cors(), helmet(), compression());
 app.disable("x-powered-by");
 
 app.get("/", function(req, res) {
-    res.status(400).json({message: "Bad Request"});
+    res.status(200)
+        .json({mensagem: "ConsultaProf está funcionando!"});
 });
 
 app.use("/discentes/", discentes);
