@@ -1,0 +1,3503 @@
+{
+  "project_info": {
+    "project_number": "375192504801",
+    "firebase_url": "https://escolar-manager-smart.firebaseio.com",
+    "project_id": "escolar-manager-smart",
+    "storage_bucket": "escolar-manager-smart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:bb300dd0f7200826",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.emoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-t94l96f10ns0mamq45r5bqp2esn0scj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.emoffice",
+            "certificate_hash": "dcd18edc25e9ba0c054fe6d56611fa333373432c"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:458400a326f39710",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.amplacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-p4gi8k3ckkq3ap9r6eim6cuui16iam5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.amplacao",
+            "certificate_hash": "0dfb0c15603f591ba2e6806d9a4d4f8b5fd70669"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:05349bc0d431404f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.cakardec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-pbd46ci6lg290g7ldc0n2sisp7hbge4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.cakardec",
+            "certificate_hash": "dad30ff2c17c192a389e4fe5e37e9769c156e3e5"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:0772074e7a6914f4",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.ceaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-011odbbij19r3fu7qrumegspelrd903c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.ceaba",
+            "certificate_hash": "ec2315791914e288816ccb6d090fbc1af7e55908"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:c720b859a2e9fd5f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.cecostazul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-spn4cp8ug66rte452gr7f4no31eg0av6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.cecostazul",
+            "certificate_hash": "774f3874b0e629f4872e52b51969357ff466c435"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:6aaccce17536cf71",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.cemabel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-9krckftlbfdrdb3stvcetqu8d3rbj14c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.cemabel",
+            "certificate_hash": "14076b3ba92f413e08dbac66d8971ee912450182"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:5d5645358cc7c8e1",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.cesp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ktjkp01uqg36eaeqoftir4eou1rkb6r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.cesp",
+            "certificate_hash": "2b8d06a97e80c6c7bf85968d30d0d1bc69f95ade"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:ff8555c6da36b7d4",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.ciesb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ncuqdbqlft0lpmmq56643koufb9p382l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.ciesb",
+            "certificate_hash": "35721c9e7774acbdf494105ec96747b44f3bdb25"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:6a715d442d9894f6",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colaprovado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-vkvdg9ej836cqkndifg7ih2cv4te89t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colaprovado",
+            "certificate_hash": "e171dc52fae5a0a7b7624e8a19305e8c8bb7399e"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:4ce444f2a66fc8c8",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioarena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-lv7i77b2ac1girdce1c76c6nd39vj922.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegioarena",
+            "certificate_hash": "f9e6b036fb4bd7600623ae0f11ae38b7db929c1b"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:dc1d92e6f5c45bb6",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioatrio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:0926cfc5ac534e87",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioatuante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-76ufpkdmhv8vph041154qscf081jpsjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegioatuante",
+            "certificate_hash": "efb6bd37dbf8b5b23a9346df826f366c89d43e29"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:a91d8fafb65a4567",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioavila1fase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-7b181sl0ht8s6avfm5lo33crvhjbogf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegioavila1fase",
+            "certificate_hash": "ef203c6d12ac419de53389619e50b3a43d06007c"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:83c2e12929943ca8",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioavila2fase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-gm0uii6lrhjk8nolmno2u4f5qstgg6bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegioavila2fase",
+            "certificate_hash": "b7422ef78a846edc5e6a4b438910721d8a600f73"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:a2739aeb633d187e",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiobatistasantarem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-9mqnqtj0glliq1qbnds58tkfnaldsqj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiobatistasantarem",
+            "certificate_hash": "ef32ef58df29cca315460f5599fee9973ab74d3b"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:bafe23411f813bd2",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiocarpediemobjetivo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-3ldc86jsg0263sh62215df5ofvivfdps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiocarpediemobjetivo",
+            "certificate_hash": "5b30cfab1d49121f4cd401ca24d154ca86ba98ea"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:fa38c8bdbba8dcf3",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiocejan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-gahc089hreua299ttl6vvn7tvlq4c3cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiocejan",
+            "certificate_hash": "4686adbdb2e423c535bbed804daefdc179be49bf"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:7d9531a4675fc183",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiodelos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:a29cfed086f6cd68",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiodimensao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-0f56efq3363lbhsc5h7ql1qumpae974n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiodimensao",
+            "certificate_hash": "f828fcd0bd9f50441dcaecf0340bb47bb7835681"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:1cd76e816ecac6eb",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiodinamicojatai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:e9af5e0c8fe75e0f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiodromos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-mf71b1olo3pdqvcoou20lmrl7hareof6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiodromos",
+            "certificate_hash": "9bc026b9ce2e93f570dc30fbb85e1af89620ab35"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:18f612b7787cf8ad",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiogalileu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-eg9d2fmmrqq7da1m8lqajg3atgifab5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiogalileu",
+            "certificate_hash": "09636d790102e1b4063db531b6bd7b42413d49b8"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:97ed18f14dff98b6",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiogalle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-909l08mpf6cn54sv30invjjjc7hkbo9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiogalle",
+            "certificate_hash": "67daa099ca33615fac1b3c27c00338ebfa9b5215"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:f35016fb22d3c015",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiogdv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-63d9nmtemode9sqdr8te8mu2dvq114c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiogdv",
+            "certificate_hash": "7292875f0f6708a9f4e701462ae2c1fb7aae9e7b"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:d5bfde43e9359a03",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiolidergo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-s5fdebjrol8vl0e1re19iouhj2f52kf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiolidergo",
+            "certificate_hash": "e8fc3bf09b74dc101258119ff7beb58841d2e6bc"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:e370379900141e92",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiomaispadrao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:4652a587aa2af70a",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiometaburiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:f34cf18cc4b44cbd",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegionexus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:35dc0a3d5c7904ad",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiooliveiraferreira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:50fea22c49b36125",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioserios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:ad17981c6076b154",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioteo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:ffc039968c01d505",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiounusburiti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:e5884df981ac70fe",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegioveratz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:a4c06eec894e7900",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiovicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:68ebb7c671918ed8",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiovisao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:346576187966e977",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiovisaoaguasclarasdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-u5kgsa4a7m1mpr80v5dq3lhcjufirbvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.colegiovisaoaguasclarasdf",
+            "certificate_hash": "9f6e29eb352f697b9e27fa255ba5f222d01ecc26"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:714849da620eb1b1",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colegiowrj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:ce0a5708ad722542",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colexpressao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:72d5b3155e785f42",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colorigem1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:7abc661f9430201f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colsimbios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:eccbd24030601ba6",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colveritas1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:7b0ebc66462e08fe",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.colveritas2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:746bd09cce2a6902",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.comercial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:f6f856e102db3516",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.coopen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-nfdb80v5qbtp2i35rsme1m9de52kl7ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.coopen",
+            "certificate_hash": "a76bdbec0046ebf40c2c05ce8b1acb54561ba976"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:74833037acb058dc",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.coopen.smart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:11451aba5de6d453",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.divinomestre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:a301e36a94bd01ee",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.dlmonteirolobato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:24baead15f47b6e5",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.educandariovilaboa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:85720f8256c2791a",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.einsteingyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:2c6e46c4c50a7b5d",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.epg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:8813395430d4881b",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolaabcriobranco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:2fc3c9dece773a6b",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolaalvacirvrossi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:3a5049c0bbb4bd0e",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolaatos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:8a86886ef2cb592d",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolacasadasletras"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:92337f26cbcce941",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolaconceitocriativo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:7528e39120a5c33c",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolacriancacompanhia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:ac06a37d6af9240f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolaethos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-7lour3jhvor2524mjuu5mqqgujlrfs5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.escolaethos",
+            "certificate_hash": "2a82beda903f15970ceea13457044e57b455270e"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:3f56fa1ac5810b50",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolainfantilsaojose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:dfdb2a5b197769a9",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolarmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-dd8q99a5nk0pkiuudsmbllk6ls01mkjq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.escolarmanager",
+            "certificate_hash": "1383d5d3b3e92fae68ec337fc5f6afed7f6e1db2"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:1baeac96271bb4d0",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escolarosamarquesgoiania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:badceebf05a7d088",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.escstepbystep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:c9198d24f83cbc46",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.expovest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:033145045e69aa62",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.expressaojunior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:89f709384b0c6666",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.externatosaojose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:65167482689e28e8",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.forumcultural"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:801b1eb50ea3cb9f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.gardenkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:1da5becf89b8985d",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.gauss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:f712014b932f3240",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.gentemiuda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:87866e3bfc724b7b",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.interamerica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:078d117c0dc0357a",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.interamericafundamental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:7e737a20bb275e5f",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.internacional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-t89rog6s2tsfgdl7j08nsg8m2ls1jua4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.internacional",
+            "certificate_hash": "bccbd4c4c129f4bfb5d6eb3a90896ecd7a835a03"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:d57cfc6c65f1df28",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.ipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:7295a87f8caee251",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.kerygma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:8eda0daa7436659c",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.letrasdouradas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:036d7be01e135fd3",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.liceudf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:947602b58a1f9d57",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.m3alcantara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-5kig0vcie9ibpi58i74stkfj1gsnt7pd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.terabytesolucoes.terasmart.m3alcantara",
+            "certificate_hash": "2b47fa45fca0d528890733f0eff99bb1c3772b0c"
+          }
+        },
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:261ca8899c5f4e65",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.m3niteroi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:e08a71cac3e3dae6",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.m3sg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:1ac54d68b1290853",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.monsenhor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:f9e178d253408c61",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.omni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:ff88c10d70de4a0a",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.orientareducacional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:505c4654976dc048",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.pequenoprincipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:98ee2f2b71083c46",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.piaget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:1106d69b0584f99c",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.pinguinhogentegyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:8da9d95ad94445f9",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.portaldocliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:77329e216b2b5390",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.prevestaprovado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:200f180dec520b8c",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.simbiosprevest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:61c89ba403c817f3",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.terracentroeducacional"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:a075bde44d9d7955",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.visaofsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:cfc27ebd51fcb97d",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.vitoriaregiadf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:bb446e05ef0fbd5e",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.yaraberocan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375192504801:android:b9a00066951d9bf2",
+        "android_client_info": {
+          "package_name": "br.com.terabytesolucoes.terasmart.zeniteinhumas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375192504801-ukr02tmae55nkqlopvdlmf7ouefepe6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqWozTYyy_YtDtJNyh7ZIVGGrNXOZ3Lc"
+        },
+        {
+          "current_key": "AIzaSyBGtl0zoIvBUPF7wrS2LTG12euHNLHTA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
