@@ -8,6 +8,7 @@ import express from "express";
 import compression from "compression";
 import cors from "cors";
 import helmet from "helmet";
+import logger from "./config/logger";
 
 // primary endpoints route
 import discentes from "./routes/discentes.route";
