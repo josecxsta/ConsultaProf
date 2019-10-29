@@ -43,20 +43,20 @@ class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
               child: ListView.builder(
                 itemCount: avaliacoes.length,
                 itemBuilder: (context, index) {
-                  return Container(
-                    height: 40,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: <Widget>[
-                        Row(
-                          children: <Widget>[
-                            Text(avaliacoes[index].tituloComentario),
-                            Text(
-                              avaliacoes[index].mediasNotas.toString(),
-                            ),
-                          ],
-                        )
-                      ],
+                  return Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      child: Row(
+                        children: <Widget>[
+                          Text(avaliacoes[index].tituloComentario),
+                          SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            avaliacoes[index].mediasNotas.toString(),
+                          ),
+                        ],
+                      ),
                     ),
                   );
                 },
