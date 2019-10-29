@@ -1,24 +1,24 @@
 import express from "express";
-import Discente from "../lib/discente";
+import Docente from "../lib/docente";
 
-const discenteRoute = express.Router();
-discenteRoute.use(express.json());
+const docenteRoute = express.Router();
+docenteRoute.use(express.json());
 
-discenteRoute.route("/")
-    .post(async function (req: any, res) {
+docenteRoute.route("/")
+    .get(async function (req: any, res) {
         res.send({});
     });
 
-discenteRoute.param("id", function (req: any, res, next, id) {
+docenteRoute.param("id", function (req: any, res, next, id) {
     req.discente = {
         id: id
     };
     next();
 });
 
-discenteRoute.route("/:id")
+docenteRoute.route("/:id")
     .get(async function (req: any, res) {
         res.send({});
     });
 
-export default discenteRoute;
+export default docenteRoute;

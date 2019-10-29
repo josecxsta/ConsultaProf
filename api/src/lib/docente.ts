@@ -6,7 +6,10 @@ import database from "../config/database";
  */
 export default class Docente {
     id: number;
-    name: string;
+    nome: string;
+    unidadeAcademica: number;
+    dataCriacao: Date;
+    dataAtualizacao: Date;
 
     constructor() {
     }

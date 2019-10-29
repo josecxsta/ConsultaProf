@@ -6,9 +6,18 @@ import database from "../config/database";
  */
 export default class Discente {
     id: number;
-    name: string;
+    apelido: string;
+    email: string;
+    senha: string;
+    matricula: string;
+    codigoVerificacao: string;
+    dataEmissaoVerificacao: Date;
+    dataCriacao: Date;
+    dataAtualizacao: Date;
 
     constructor() {
     }
+
+
 
 }
