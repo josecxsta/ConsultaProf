@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:consulta_prof/functions/error_functions.dart';
 import 'package:consulta_prof/models/session_model.dart';
+import 'package:consulta_prof/models/user_model.dart';
 import 'package:consulta_prof/repositories/token_repository.dart';
 import 'package:consulta_prof/repositories/ultilidades_repository.dart';
 import 'package:consulta_prof/repositories/user_repository.dart';
@@ -48,40 +49,37 @@ class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
       yield ApplicationState.unauthenticated();
       return;
     }
-
-    if (event is ApplicationAlteracaoSenhaEvent) {
-      TokenRepository().persistToken(event.novoToken);
-      yield* _inicializeAplicacao(event.novoToken);
-      return;
-    }
   }
 
   Stream<ApplicationState> _inicializeAplicacao(String token) async* {
-    var user = await UserRepository().load();
-
-    if (user == null) {
-      yield ApplicationState.unauthenticated();
-      return;
-    }
-
     var session = SessionModel(
       tokenUsuario: token,
-      user: user,
+      user: UserModel(nome: "Gustavo Henrique", id: 1),
     );
+    yield ApplicationState.authenticated(session: session);
 
-    try {
-      await _carregueDados(session);
-    } catch (error, stackTrace) {
-      yield ApplicationState.unauthenticated();
-      if (!ehErroDeTimeoutNaConexao(error)) {
-        reportError(error, stackTrace);
-        return;
-      }
-    }
-
-    yield ApplicationState.authenticated(
-      session: session,
-    );
+//    var user = await UserRepository().load();
+//
+//    if (user == null) {
+//      yield ApplicationState.unauthenticated();
+//      return;
+//    }
+//
+//
+//
+//    try {
+//      await _carregueDados(session);
+//    } catch (error, stackTrace) {
+//      yield ApplicationState.unauthenticated();
+//      if (!ehErroDeTimeoutNaConexao(error)) {
+//        reportError(error, stackTrace);
+//        return;
+//      }
+//    }
+//
+//    yield ApplicationState.authenticated(
+//      session: session,
+//    );
   }
 
   Future _carregueDados(SessionModel session) async {}

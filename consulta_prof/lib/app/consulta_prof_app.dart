@@ -3,6 +3,7 @@ import 'package:consulta_prof/blocs/application/application_bloc.dart';
 import 'package:consulta_prof/blocs/application/application_event.dart';
 import 'package:consulta_prof/blocs/application/application_state.dart';
 import 'package:consulta_prof/screens/login/login_screen.dart';
+import 'package:consulta_prof/screens/professores/professores_screen.dart';
 import 'package:consulta_prof/screens/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -32,9 +33,6 @@ class _ConsultaProfAppState extends State<ConsultaProfApp> {
       debugShowCheckedModeBanner: false,
       navigatorKey: Catcher.navigatorKey,
       title: "Consulta Prof",
-      supportedLocales : [
-        const  Locale ('pt'),
-      ],
       home: BlocBuilder<ApplicationBloc, ApplicationState>(
         builder: (context, state) {
           if (state.isInitializing) {
@@ -44,7 +42,7 @@ class _ConsultaProfAppState extends State<ConsultaProfApp> {
           if (!state.isAuthenticated) {
             return LoginScreen();
           }
-          return Container();
+          return ProfessoresScreen();
         },
       ),
     ),
