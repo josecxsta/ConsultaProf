@@ -19,7 +19,7 @@ class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
   @override
   Stream<ApplicationState> mapEventToState(ApplicationEvent event) async* {
     if (event is ApplicationStartEvent) {
-      var token = null;//await TokenRepository().getToken();
+      var token = await TokenRepository().getToken();
       if (token == null) {
         yield ApplicationState.unauthenticated();
       } else {
@@ -52,34 +52,32 @@ class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
   }
 
   Stream<ApplicationState> _inicializeAplicacao(String token) async* {
+    var user = await UserRepository().load();
+
+    if (user == null) {
+      yield ApplicationState.unauthenticated();
+      return;
+    }
+
     var session = SessionModel(
       tokenUsuario: token,
       user: UserModel(nome: "Gustavo Henrique", id: 1),
     );
-    yield ApplicationState.authenticated(session: session);
 
-//    var user = await UserRepository().load();
-//
-//    if (user == null) {
-//      yield ApplicationState.unauthenticated();
-//      return;
-//    }
-//
-//
-//
-//    try {
-//      await _carregueDados(session);
-//    } catch (error, stackTrace) {
-//      yield ApplicationState.unauthenticated();
-//      if (!ehErroDeTimeoutNaConexao(error)) {
-//        reportError(error, stackTrace);
-//        return;
-//      }
-//    }
-//
-//    yield ApplicationState.authenticated(
-//      session: session,
-//    );
+
+    try {
+      await _carregueDados(session);
+    } catch (error, stackTrace) {
+      yield ApplicationState.unauthenticated();
+      if (!ehErroDeTimeoutNaConexao(error)) {
+        reportError(error, stackTrace);
+        return;
+      }
+    }
+
+    yield ApplicationState.authenticated(
+      session: session,
+    );
   }
 
   Future _carregueDados(SessionModel session) async {}

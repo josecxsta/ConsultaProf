@@ -1,9 +1,5 @@
 import mysql from "promise-mysql";
 
-/**
- * @author José da Costa <josecxsta@gmail.com>
- */
-
 const dbConfig = {
     host: process.env.CP_DB_HOST,
     user: process.env.CP_DB_USER,

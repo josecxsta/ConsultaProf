@@ -27,7 +27,6 @@ class _ConsultaProfAppState extends State<ConsultaProfApp> {
         providers: [
         BlocProvider<ApplicationBloc>(
         builder: (BuildContext context) => _appBloc),
-
     ],
     child: MaterialApp(
       debugShowCheckedModeBanner: false,
