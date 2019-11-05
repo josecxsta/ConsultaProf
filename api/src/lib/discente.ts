@@ -1,4 +1,4 @@
-import database from "../config/database";
+import DiscenteDao from "../dao/discente";
 
 /**
  * @class Discente
@@ -18,6 +18,11 @@ export default class Discente {
     constructor() {
     }
 
+    static async get(email: string) {
+        DiscenteDao.findOne({ where: {email: email} })
+            .then(project => {
+            });
+    }
 
 
 }
