@@ -12,18 +12,13 @@ Plataforma para que alunos possam avaliar e consultar as avaliações disponíve
 [![support](https://img.shields.io/badge/platform-flutter%7Cflutter%20web%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/flutterchina/dio)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
-
-### DOCUMENTO DE REQUISITOS
-
-ConsultaProf
-
-IDENTIFICAÇÃO DOS COMPONENTES DO GRUPO
+### Identificação dos componentes do grupo
 
 ● Gustavo Henrique Rodrigues Santos Silva
 ● João Carlos Fonseca
 ● José da Costa Nunes Neto
 
-PROBLEMA
+### Problema
 
 Os alunos do Instituto de Informática não conseguem obter informações, antes da
 matrícula, acerca dos docentes das disciplinas que irão cursar, já que a avaliação
@@ -34,12 +29,12 @@ e o desvio padrão dessa média. Dados que são demasiadamente abstratos e que
 fornecem praticamente nenhuma informação acerca do docente em questão. Isso
 dificulta a escolha das disciplinas pelo discente.
 
-OBJETIVO
+### Objetivo
 
 O objetivo é criar uma plataforma em que os alunos possam avaliar e consultar as
 avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
-IDENTIFICAÇÃO DOS COMPONENTES DO SISTEMA
+### Identificação dos componentes do sistema
 
 ● Portal UFGNet
 ● Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)
@@ -55,27 +50,27 @@ constar na avaliação do docente).
 ● Comissão de avaliação institucional da UFG: entrevista. Podem nos auxiliar com
 a visão que possuem sobre esse tipo de avaliação.
 
-REQUISITOS FUNCIONAIS
+### Requisitos funcionais
 
-RF01
+### RF01
 
 Como discente, ​ desejo validar minha conta do SIGAA ​ para que ​ possa acessar o
 sistema e realizar avaliações. Os dados necessários para a validação são: matrícula, o
 código de verificação e data de emissão da declaração de vínculo.
 
-RF02
+#### RF02
 
 Como docente, ​ desejo requisitar um pedido de exclusão da avaliação ​ para que ​ não
 tenha comentários que ofendam o docente ou não sejam verdade. Esse pedido será
 avaliado pelo moderador e o docente será notificado através do e-mail.
 
-RF03
+#### RF03
 
 Como sistema ConsultaProf, ​ desejo ​ importar do Portal UFGNet os dados de
 professores ​ para que ​ possa disponibilizar uma listagem dos professores para que os
 docentes escolham quem irão avaliar.
 
-RF04
+#### RF04
 
 Como sistema ConsultaProf, ​ desejo ​ importar do SIGAA os dados dos alunos do INF
 para que ​ possa validar o login do discente.
