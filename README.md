@@ -36,9 +36,9 @@ avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
 ### Identificação dos componentes do sistema
 
-● Portal UFGNet
-● Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)
-IDENTIFICAÇÃO DOS USUÁRIOS FINAIS
+● Portal UFGNet  
+● Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)  
+IDENTIFICAÇÃO DOS USUÁRIOS FINAIS  
 ● Discentes do Instituto de Informática da UFG. Eles irão avaliar e consultar
 avaliações anteriores dos discentes.
 ● Docentes do Instituto de Informática da UFG.
