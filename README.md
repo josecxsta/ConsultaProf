@@ -166,7 +166,9 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 ### Casos de usos detalhados
 
-	Caso de uso 1​ : Avaliar docente.  
+#### Caso de uso 01:
+
+	Nome : Avaliar docente.  
 	Ator principal​ : Discente.  
 	Interessados e interesses​ : Discente, Moderador. 
 
@@ -186,7 +188,9 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	- Procura pelo docente e acessa sua página;  
 	- Preenche os campos necessários e envia a sua avaliação.
 
-	Caso de uso 2​ : Contestar avaliação.  
+#### Caso de uso 02:
+
+	Nome: Contestar avaliação.  
 	Ator principal​ : Docente.  
 	Interessados e interesses​ : Moderador.  
 	Pré-condições​ :  
@@ -203,7 +207,9 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	ficará permanentemente indisponível, caso contrário, voltará a ser disponível.  
 	- Discente recebe notificação sobre a contestação.
 
-	Caso de uso 3​ : Cadastro de discente.  
+#### Caso de uso 03:
+
+	Nome : Cadastro de discente.  
 	Ator principal​ : Discente.  
 	Interessados e interesses​ : Discente.  
 	Pré-condições​ :  
