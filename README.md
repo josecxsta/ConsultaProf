@@ -166,55 +166,56 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 ### Casos de usos detalhados
 
-Caso de uso 1​ : Avaliar docente.  
-Ator principal​ : Discente.  
-Interessados e interesses​ : Discente, Moderador. 
+	Caso de uso 1​ : Avaliar docente.  
+	Ator principal​ : Discente.  
+	Interessados e interesses​ : Discente, Moderador. 
 
-Pré-condições​ : 
+	Pré-condições​ : 
 
-- Discente está autenticado.  
-- Docente está registrado no sistema.
+	- Discente está autenticado.  
+	- Docente está registrado no sistema.
 
-Pós-condições (garantia de sucesso): 
+	Pós-condições (garantia de sucesso): 
 
--Avaliação realizada e submetida ao moderador,
-quem irá autorizar a publicação da avaliação. 
+	- Avaliação realizada e submetida ao moderador,
+	quem irá autorizar a publicação da avaliação. 
 
-Cenário de sucesso principal​ : 
+	Cenário de sucesso principal​ : 
 
-- Discente acessa a página inicial;  
-- Procura pelo docente e acessa sua página;  
-- Preenche os campos necessários e envia a sua avaliação.
+	- Discente acessa a página inicial;  
+	- Procura pelo docente e acessa sua página;  
+	- Preenche os campos necessários e envia a sua avaliação.
 
-Caso de uso 2​ : Contestar avaliação.  
-Ator principal​ : Docente.  
-Interessados e interesses​ : Moderador.  
-Pré-condições​ :  
-- Docente possui ao menos uma avaliação.  
-Pós-condições (garantia de sucesso): A contestação será enviada ao moderador e
-notificada ao discente.  
-Cenário de sucesso principal​ :  
-● Lê as avaliações já publicadas;  
-● Escolhe a avaliação a ser contestada;  
-● Contesta avaliação;  
-● Insere seu endereço de e-mail;  
-● Recebe um aviso de que a contestação será analisada;  
-● Avaliação ficará indisponível até a análise, caso seja aceita a contestação ela
-ficará permanentemente indisponível, caso contrário, voltará a ser disponível.  
-● Discente recebe notificação sobre a contestação.
+	Caso de uso 2​ : Contestar avaliação.  
+	Ator principal​ : Docente.  
+	Interessados e interesses​ : Moderador.  
+	Pré-condições​ :  
+	- Docente possui ao menos uma avaliação.  
+	Pós-condições (garantia de sucesso): 
+	- A contestação será enviada ao moderador e notificada ao discente.  
+	Cenário de sucesso principal​ :  
+	- Lê as avaliações já publicadas;  
+	- Escolhe a avaliação a ser contestada;  
+	- Contesta avaliação;  
+	- Insere seu endereço de e-mail;  
+	- Recebe um aviso de que a contestação será analisada;  
+	- Avaliação ficará indisponível até a análise, caso seja aceita a contestação ela
+	ficará permanentemente indisponível, caso contrário, voltará a ser disponível.  
+	- Discente recebe notificação sobre a contestação.
 
-Caso de uso 3​ : Cadastro de discente.  
-Ator principal​ : Discente.  
-Interessados e interesses​ : Discente.  
-Pré-condições​ :  
-- Discente está matriculado na UFG.  
-Pós-condições (garantia de sucesso): O discente será cadastrado e autenticado no
-app.  
-Cenário de sucesso principal​ :  
-● Docente acessa de login.  
-● Preenche os campos necessários: matrícula, data de emissão e identificador da
-declaração de vínculo.  
-● Tem seu nome/apelido e senha usada.PROGRAMAÇÃO DAS ENTREGAS
+	Caso de uso 3​ : Cadastro de discente.  
+	Ator principal​ : Discente.  
+	Interessados e interesses​ : Discente.  
+	Pré-condições​ :  
+	- Discente está matriculado na UFG.  
+	Pós-condições (garantia de sucesso): O discente será cadastrado e autenticado no
+	app.  
+	Cenário de sucesso principal​ :  
+	- Docente acessa de login.  
+	- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.  
+	- Tem seu nome/apelido e senha usada.
+
+### Programação das entregas
 
 ### Modelagem de domínio
 #### -Diagrama de classes:
