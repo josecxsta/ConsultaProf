@@ -18,9 +18,7 @@ Plataforma para que alunos possam avaliar e consultar as avaliações disponíve
 ● João Carlos Fonseca  
 ● José da Costa Nunes Neto
 
-### Problema
-
-Os alunos do Instituto de Informática não conseguem obter informações, antes da
+> **Problema**: Os alunos do Instituto de Informática não conseguem obter informações, antes da
 matrícula, acerca dos docentes das disciplinas que irão cursar, já que a avaliação
 institucional existente, apesar de ser realizada pelos alunos, tem seus resultados
 destinados aos docentes. Com isso, pouca ou quase nenhuma informação acerca da
@@ -29,9 +27,7 @@ e o desvio padrão dessa média. Dados que são demasiadamente abstratos e que
 fornecem praticamente nenhuma informação acerca do docente em questão. Isso
 dificulta a escolha das disciplinas pelo discente.
 
-### Objetivo
-
-O objetivo é criar uma plataforma em que os alunos possam avaliar e consultar as
+> **Objetivo**: O objetivo é criar uma plataforma em que os alunos possam avaliar e consultar as
 avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
 ### Identificação dos componentes do sistema
@@ -57,7 +53,7 @@ a visão que possuem sobre esse tipo de avaliação).
 
 ### Requisitos funcionais
 
-### RF01
+#### RF01
 
 Como discente, ​ desejo validar minha conta do SIGAA ​ para que ​ possa acessar o
 sistema e realizar avaliações. Os dados necessários para a validação são: matrícula, o
