@@ -14,8 +14,8 @@ Plataforma para que alunos possam avaliar e consultar as avaliações disponíve
 
 ### Identificação dos componentes do grupo
 
-● Gustavo Henrique Rodrigues Santos Silva
-● João Carlos Fonseca
+● Gustavo Henrique Rodrigues Santos Silva  
+● João Carlos Fonseca  
 ● José da Costa Nunes Neto
 
 ### Problema
@@ -37,18 +37,23 @@ avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 ### Identificação dos componentes do sistema
 
 ● Portal UFGNet  
-● Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)  
-IDENTIFICAÇÃO DOS USUÁRIOS FINAIS  
+● Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA) 
+
+### Identificação dos usuários finais
+
 ● Discentes do Instituto de Informática da UFG. Eles irão avaliar e consultar
-avaliações anteriores dos discentes.
-● Docentes do Instituto de Informática da UFG.
+avaliações anteriores dos discentes.  
+● Docentes do Instituto de Informática da UFG.  
 ● Moderador: responsável pela fiscalização dos comentários e por atender
-pedidos de exclusão de avaliações.FONTES DE REQUISITOS
+pedidos de exclusão de avaliações.  
+
+### Fontes de requisitos
+
 ● Discentes: questionário online (visa identificar pontos essenciais que devem
-constar na avaliação do docente).
-● Docentes: entrevistas (visa identificar restrições que a avaliação deve obedecer).
-● Comissão de avaliação institucional da UFG: entrevista. Podem nos auxiliar com
-a visão que possuem sobre esse tipo de avaliação.
+constar na avaliação do docente).  
+● Docentes: entrevistas (visa identificar restrições que a avaliação deve obedecer).  
+● Comissão de avaliação institucional da UFG: entrevista (podem nos auxiliar com
+a visão que possuem sobre esse tipo de avaliação).
 
 ### Requisitos funcionais
 
@@ -75,138 +80,142 @@ docentes escolham quem irão avaliar.
 Como sistema ConsultaProf, ​ desejo ​ importar do SIGAA os dados dos alunos do INF
 para que ​ possa validar o login do discente.
 
-RF05
+#### RF05
 
 Como discente, ​ desejo avaliar o docente ​ para que tenha conteúdo onde os alunos
 possam consultar. Os dados relativos à disciplina avaliada são:
 
-● Nome;
-● Código;
-● Ano e semestre que foi ministrada;
+● Nome;  
+● Código;  
+● Ano e semestre que foi ministrada;  
 ● Horário.
 
 A avaliação do docente correspondem a notas (no intervalo de 1 a 5) relativas aos
 seguintes critérios:
 
-● Didática;
-● Coerência das avaliações;
-● Pontualidade;
+● Didática;  
+● Coerência das avaliações;  
+● Pontualidade;  
 ● Relacionamento com o aluno.
 
 A avaliação contém também o critério “Cursaria alguma disciplina com o docente
 novamente?”, no qual a resposta pode ser “Sim” ou “Não”. Por fim, o discente pode
 complementar sua avaliação adicionando um comentário e um título para o comentário.
 
-RF06
+#### RF06
 
 Como usuário, ​ desejo buscar o docente pelo nome ​ para que seja mais fácil de
 encontrá-lo.
 
-RF07
+#### RF07
 
 Como discente, ​ desejo poder editar a avaliação do docente ​ para que ​ possa corrigir
 algum erro no momento da avaliação do discente.
 
-RF07
+#### RF07
 
 Como​ discente, ​ desejo​ poder excluir a avaliação do docente.
 
-RF09
+#### RF09
 
 Como ​ discente, ​ desejo escolher um nome/apelido no cadastro para não revelar minha
 identidade.
 
-REQUISITOS NÃO-FUNCIONAIS
+### Requisitos não-funcionais
 
-RNF01
+#### RNF01
 
 O sistema deve ser acessível através da plataforma móvel Android.
 
-RNF02
+#### RNF02
 
 As interfaces devem ser intuitivas, isto é, o usuário saberá usá-lo sem ler um manual
 ou qualquer tipo de treinamento, visto que o sistema será usado como entretenimento
 por usuários heterogêneos.
 
-RNF03
+#### RNF03
 
 O sistema utilizará a versão 2.5 da linguagem Dart para o cliente mobile e TypeScript
 rodando no NodeJS para o servidor. Essas escolhas foram feitas baseadas na fácil
 curva de aprendizagem com essas linguagens e facilidade que existe para se trabalhar
 com web service com NodeJS.
 
-RNF04
+#### RNF04
 
 A IDE utilizada para o desenvolvimento do cliente mobile será Intellij IDEA, utilizando a tecnologia Flutter.
 
-RNF05
+#### RNF05
 
 A IDE utilizada para o desenvolvimento do servidor será Microsoft Visual Studio Code,
 usando TypeScript.
 
-RNF06
+#### RNF06
 
 O SGDB a ser utilizado será o MySQL. Essa escolha foi feita porque essa tecnologia
 tem uma boa performance e é altamente escalável.
 
-RNF07
+#### RNF07
 
 O versionamento do projeto deve ser realizado pelo GitHub.
 
-RNF08
+#### RNF08
 
 Os testes do projeto devem ser realizados pela integração do Travis CI ao GitHub.
 
-DIAGRAMA DE CASOS DE USO:
+### Diagrama de casos de uso:
 
-CASOS DE USO DETALHADOS
+### Casos de usos detalhados
 
-Caso de uso 1​ : Avaliar docente.
-Ator principal​ : Discente.
-Interessados e interesses​ : Discente, Moderador.
-Pré-condições​ :
-- Discente está autenticado.
-- Docente está registrado no sistema.
+Caso de uso 1​ : Avaliar docente.  
+Ator principal​ : Discente.  
+Interessados e interesses​ : Discente, Moderador.  
+Pré-condições​ :  
+- Discente está autenticado.  
+- Docente está registrado no sistema.  
 Pós-condições (garantia de sucesso): Avaliação realizada e submetida ao moderador,
-quem irá autorizar a publicação da avaliação.
-Cenário de sucesso principal​ :
-● Discente acessa a página inicial;
-● Procura pelo docente e acessa sua página;
+quem irá autorizar a publicação da avaliação.  
+Cenário de sucesso principal​ :  
+● Discente acessa a página inicial;  
+● Procura pelo docente e acessa sua página;  
 ● Preenche os campos necessários e envia a sua avaliação.
 
-Caso de uso 2​ : Contestar avaliação.
-Ator principal​ : Docente.
-Interessados e interesses​ : Moderador.
-Pré-condições​ :
-- Docente possui ao menos uma avaliação.
+Caso de uso 2​ : Contestar avaliação.  
+Ator principal​ : Docente.  
+Interessados e interesses​ : Moderador.  
+Pré-condições​ :  
+- Docente possui ao menos uma avaliação.  
 Pós-condições (garantia de sucesso): A contestação será enviada ao moderador e
-notificada ao discente.
-Cenário de sucesso principal​ :
-● Lê as avaliações já publicadas;
-● Escolhe a avaliação a ser contestada;
-● Contesta avaliação;
-● Insere seu endereço de e-mail;
-● Recebe um aviso de que a contestação será analisada;
+notificada ao discente.  
+Cenário de sucesso principal​ :  
+● Lê as avaliações já publicadas;  
+● Escolhe a avaliação a ser contestada;  
+● Contesta avaliação;  
+● Insere seu endereço de e-mail;  
+● Recebe um aviso de que a contestação será analisada;  
 ● Avaliação ficará indisponível até a análise, caso seja aceita a contestação ela
-ficará permanentemente indisponível, caso contrário, voltará a ser disponível.
+ficará permanentemente indisponível, caso contrário, voltará a ser disponível.  
 ● Discente recebe notificação sobre a contestação.
 
-Caso de uso 3​ : Cadastro de discente.
-Ator principal​ : Discente.
-Interessados e interesses​ : Discente.
-Pré-condições​ :
-- Discente está matriculado na UFG.
+Caso de uso 3​ : Cadastro de discente.  
+Ator principal​ : Discente.  
+Interessados e interesses​ : Discente.  
+Pré-condições​ :  
+- Discente está matriculado na UFG.  
 Pós-condições (garantia de sucesso): O discente será cadastrado e autenticado no
-app.
-Cenário de sucesso principal​ :
-● Docente acessa de login.
+app.  
+Cenário de sucesso principal​ :  
+● Docente acessa de login.  
 ● Preenche os campos necessários: matrícula, data de emissão e identificador da
-declaração de vínculo.
+declaração de vínculo.  
 ● Tem seu nome/apelido e senha usada.PROGRAMAÇÃO DAS ENTREGAS
 
-MODELAGEM DE DOMÍNIO
--DIAGRAMA DE CLASSES:PROTOTIPAGEM INICIAL
--
+### Modelagem de domínio
+#### -Diagrama de classes:
+
+### Prototipagem inicial:
+
 Tela de cadastro do discente:
+
 Tela de avaliações de um professor:
+
 Tela de preenchimento de avaliação:
