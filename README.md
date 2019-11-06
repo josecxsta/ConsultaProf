@@ -1,4 +1,4 @@
-## 👨‍🏫 ConsultaProf
+﻿## 👨‍🏫 ConsultaProf
 
 Plataforma para que alunos possam avaliar e consultar as avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
