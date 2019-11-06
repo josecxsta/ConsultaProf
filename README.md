@@ -168,13 +168,20 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 Caso de uso 1​ : Avaliar docente.  
 Ator principal​ : Discente.  
-Interessados e interesses​ : Discente, Moderador.  
+Interessados e interesses​ : Discente, Moderador. 
+
 Pré-condições​ : 
+
 - Discente está autenticado.  
 - Docente está registrado no sistema.
-Pós-condições (garantia de sucesso): Avaliação realizada e submetida ao moderador,
-quem irá autorizar a publicação da avaliação.  
-Cenário de sucesso principal​ :  
+
+Pós-condições (garantia de sucesso): 
+
+-Avaliação realizada e submetida ao moderador,
+quem irá autorizar a publicação da avaliação. 
+
+Cenário de sucesso principal​ : 
+
 - Discente acessa a página inicial;  
 - Procura pelo docente e acessa sua página;  
 - Preenche os campos necessários e envia a sua avaliação.
