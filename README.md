@@ -13,7 +13,7 @@ Plataforma para que alunos possam avaliar e consultar as avaliações disponíve
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
 
-# DOCUMENTO DE REQUISITOS
+### DOCUMENTO DE REQUISITOS
 
 ConsultaProf
 
