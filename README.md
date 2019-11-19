@@ -14,9 +14,9 @@ Plataforma para que alunos possam avaliar e consultar as avaliações disponíve
 
 ### Identificação dos componentes do grupo
 
-● Gustavo Henrique Rodrigues Santos Silva  
-● João Carlos Fonseca  
-● José da Costa Nunes Neto
+- Gustavo Henrique Rodrigues Santos Silva
+- João Carlos Fonseca
+- José da Costa Nunes Neto
 
 > **Problema**: Os alunos do Instituto de Informática não conseguem obter informações, antes da
 matrícula, acerca dos docentes das disciplinas que irão cursar, já que a avaliação
@@ -32,23 +32,23 @@ avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
 ### Identificação dos componentes do sistema
 
-● Portal UFGNet  
-● Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA) 
+- Portal UFGNet
+- Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)
 
 ### Identificação dos usuários finais
 
-● Discentes do Instituto de Informática da UFG. Eles irão avaliar e consultar
-avaliações anteriores dos discentes.  
-● Docentes do Instituto de Informática da UFG.  
-● Moderador: responsável pela fiscalização dos comentários e por atender
-pedidos de exclusão de avaliações.  
+- Discentes do Instituto de Informática da UFG. Eles irão avaliar e consultar
+avaliações anteriores dos discentes.
+- Docentes do Instituto de Informática da UFG.
+- Moderador: responsável pela fiscalização dos comentários e por atender
+pedidos de exclusão de avaliações.
 
 ### Fontes de requisitos
 
-● Discentes: questionário online (visa identificar pontos essenciais que devem
-constar na avaliação do docente).  
-● Docentes: entrevistas (visa identificar restrições que a avaliação deve obedecer).  
-● Comissão de avaliação institucional da UFG: entrevista (podem nos auxiliar com
+- Discentes: questionário online (visa identificar pontos essenciais que devem
+constar na avaliação do docente).
+- Docentes: entrevistas (visa identificar restrições que a avaliação deve obedecer).
+- Comissão de avaliação institucional da UFG: entrevista (podem nos auxiliar com
 a visão que possuem sobre esse tipo de avaliação).
 
 ### Requisitos funcionais
@@ -81,18 +81,18 @@ para que ​ possa validar o login do discente.
 Como discente, ​ desejo avaliar o docente ​ para que tenha conteúdo onde os alunos
 possam consultar. Os dados relativos à disciplina avaliada são:
 
-● Nome;  
-● Código;  
-● Ano e semestre que foi ministrada;  
-● Horário.
+- Nome;
+- Código;
+- Ano e semestre que foi ministrada;
+- Horário.
 
 A avaliação do docente correspondem a notas (no intervalo de 1 a 5) relativas aos
 seguintes critérios:
 
-● Didática;  
-● Coerência das avaliações;  
-● Pontualidade;  
-● Relacionamento com o aluno.
+- Didática;
+- Coerência das avaliações;
+- Pontualidade;
+- Relacionamento com o aluno.
 
 A avaliação contém também o critério “Cursaria alguma disciplina com o docente
 novamente?”, no qual a resposta pode ser “Sim” ou “Não”. Por fim, o discente pode
@@ -164,57 +164,57 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 #### Caso de uso 01:
 
-	Nome : Avaliar docente.  
-	Ator principal​ : Discente.  
-	Interessados e interesses​ : Discente, Moderador. 
+	Nome : Avaliar docente.
+	Ator principal​ : Discente.
+	Interessados e interesses​ : Discente, Moderador.
 
-	Pré-condições​ : 
+	Pré-condições​ :
 
-	- Discente está autenticado.  
+	- Discente está autenticado.
 	- Docente está registrado no sistema.
 
-	Pós-condições (garantia de sucesso): 
+	Pós-condições (garantia de sucesso):
 
 	- Avaliação realizada e submetida ao moderador,
-	quem irá autorizar a publicação da avaliação. 
+	quem irá autorizar a publicação da avaliação.
 
-	Cenário de sucesso principal​ : 
+	Cenário de sucesso principal​ :
 
-	- Discente acessa a página inicial;  
-	- Procura pelo docente e acessa sua página;  
+	- Discente acessa a página inicial;
+	- Procura pelo docente e acessa sua página;
 	- Preenche os campos necessários e envia a sua avaliação.
 
 #### Caso de uso 02:
 
-	Nome: Contestar avaliação.  
-	Ator principal​ : Docente.  
-	Interessados e interesses​ : Moderador.  
-	Pré-condições​ :  
-	- Docente possui ao menos uma avaliação.  
-	Pós-condições (garantia de sucesso): 
-	- A contestação será enviada ao moderador e notificada ao discente.  
-	Cenário de sucesso principal​ :  
-	- Lê as avaliações já publicadas;  
-	- Escolhe a avaliação a ser contestada;  
-	- Contesta avaliação;  
-	- Insere seu endereço de e-mail;  
-	- Recebe um aviso de que a contestação será analisada;  
+	Nome: Contestar avaliação.
+	Ator principal​ : Docente.
+	Interessados e interesses​ : Moderador.
+	Pré-condições​ :
+	- Docente possui ao menos uma avaliação.
+	Pós-condições (garantia de sucesso):
+	- A contestação será enviada ao moderador e notificada ao discente.
+	Cenário de sucesso principal​ :
+	- Lê as avaliações já publicadas;
+	- Escolhe a avaliação a ser contestada;
+	- Contesta avaliação;
+	- Insere seu endereço de e-mail;
+	- Recebe um aviso de que a contestação será analisada;
 	- Avaliação ficará indisponível até a análise, caso seja aceita a contestação ela
-	ficará permanentemente indisponível, caso contrário, voltará a ser disponível.  
+	ficará permanentemente indisponível, caso contrário, voltará a ser disponível.
 	- Discente recebe notificação sobre a contestação.
 
 #### Caso de uso 03:
 
-	Nome : Cadastro de discente.  
-	Ator principal​ : Discente.  
-	Interessados e interesses​ : Discente.  
-	Pré-condições​ :  
-	- Discente está matriculado na UFG.  
+	Nome : Cadastro de discente.
+	Ator principal​ : Discente.
+	Interessados e interesses​ : Discente.
+	Pré-condições​ :
+	- Discente está matriculado na UFG.
 	Pós-condições (garantia de sucesso): O discente será cadastrado e autenticado no
-	app.  
-	Cenário de sucesso principal​ :  
-	- Docente acessa de login.  
-	- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.  
+	app.
+	Cenário de sucesso principal​ :
+	- Docente acessa de login.
+	- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.
 	- Tem seu nome/apelido e senha usada.
 
 ### Programação das entregas
