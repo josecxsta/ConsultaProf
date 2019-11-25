@@ -14,7 +14,7 @@ class DenunciaDao extends Model {
 DenunciaDao.init({
     // attributes
     avaliacao: {
-        type: Sequelize.avaliacao,
+        type: Sequelize.INTEGER,
     },
     email: {
         type: Sequelize.STRING

@@ -5,7 +5,13 @@ const avaliacaoRoute = express.Router();
 avaliacaoRoute.use(express.json());
 
 avaliacaoRoute.route("/")
-.post(async function (req: any, res) {
+.post(
+    /**
+     * Insere nova avaliação no Banco de Dados.
+     * @param req
+     * @param res
+     */
+    async function (req: any, res) {
     res.send({});
 });
 
@@ -18,8 +24,15 @@ avaliacaoRoute.param("id", function (req: any, res, next, id) {
 
 
 avaliacaoRoute.route("/:id")
-.get(async function (req: any, res) {
-    res.send({});
+.get(
+    /**
+     * Obtém todas as avaliações de um docente.
+     * @param req
+     * @param res
+     */
+    async function (req: any, res) {
+    const avaliacoes = await Avaliacao.getAll(req.discente.id);
+    res.send(avaliacoes);
 });
 
 export default avaliacaoRoute;
