@@ -217,16 +217,8 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.
 	- Tem seu nome/apelido e senha usada.
 
-### Programação das entregas
-
-### Modelagem de domínio
 #### -Diagrama de classes:
-![Contribution guidelines for this project](diagrams/classDiagram.png)
+![Diagrama de classes](diagrams/classDiagram.png)
 
-### Prototipagem inicial:
-
-Tela de cadastro do discente:
-
-Tela de avaliações de um professor:
-
-Tela de preenchimento de avaliação:
+#### Diagrama de casos de uso:
+![Diagrama de casos de uso](diagrams/useCaseDiagram.png)
