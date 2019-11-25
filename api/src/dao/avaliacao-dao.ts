@@ -45,7 +45,7 @@ AvaliacaoDAO.init({
     }
 }, {
     sequelize,
-    modelName: "avaliacaoDAO"
+    modelName: "avaliacoes"
     // options
 });
 
