@@ -36,5 +36,9 @@ export default class Discente {
         return discentes;
     }
 
+    static async insert(obj) {
+
+    }
+
 
 }
