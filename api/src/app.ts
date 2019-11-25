@@ -14,6 +14,7 @@ import logger from "./config/logger";
 import discentes from "./routes/discentes.route";
 import docentes from "./routes/docentes.route";
 import avaliacoes from "./routes/avaliacoes.route";
+import denuncias from "./routes/denuncias.route";
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.get("/", function(req, res) {
 app.use("/discentes/", discentes);
 app.use("/docentes/", docentes);
 app.use("/avaliacoes/", avaliacoes);
+app.use("/denuncias/", denuncias);
 
 const PORT = process.env.PORT || 8080;
 

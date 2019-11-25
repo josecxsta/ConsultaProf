@@ -22,9 +22,4 @@ avaliacaoRoute.route("/:id")
     res.send({});
 });
 
-avaliacaoRoute.route("/:id/denuncias")
-.get(async function (req: any, res) {
-    res.send({});
-});
-
 export default avaliacaoRoute;
