@@ -4,9 +4,8 @@
   "description": "",
   "main": "./api/dist/app.js",
   "scripts": {
-    "start": "npm run build && node ./api/dist/app.js",
+    "start": "cd api && tsc -w && node ./dist/app.js",
     "lint": "tsc --noEmit && eslint \"**/*.{tsx,ts}\" --quiet --fix",
-    "build": "cd api & npm run build-ts",
     "build-ts": "cd api & tsc",
     "watch-ts": "tsc -w",
     "serve": "concurrently \"npm run watch-ts\" \"nodemon api/src/app.js\"",
