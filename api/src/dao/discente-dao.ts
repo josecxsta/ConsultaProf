@@ -1,5 +1,5 @@
-const Sequelize = require('sequelize');
-import sequelize from '../config/sequelize';
+const Sequelize = require("sequelize");
+import sequelize from "../config/sequelize";
 
 const Model = Sequelize.Model;
 
@@ -39,7 +39,7 @@ DiscenteDao.init({
     }
 }, {
     sequelize,
-    modelName: 'discente'
+    modelName: "discente"
     // options
 });
 

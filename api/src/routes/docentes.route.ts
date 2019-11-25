@@ -20,7 +20,7 @@ docenteRoute.route("/")
                     mensagem: "Erro interno"
                 }).status(500);
             }
-    });
+        });
 
 docenteRoute.param("id", function (req: any, res, next, id) {
     req.discente = {

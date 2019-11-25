@@ -23,10 +23,10 @@ export default class Docente {
         await DocenteDao.findAll().then(result => {
             docentes = result;
         })
-        .catch(err => {
-            console.error(err);
-            docentes = [];
-        });
+            .catch(err => {
+                console.error(err);
+                docentes = [];
+            });
         return docentes;
     }
 

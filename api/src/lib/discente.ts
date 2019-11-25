@@ -20,8 +20,8 @@ export default class Discente {
 
     static async get(email: string) {
         DiscenteDao.findOne({ where: {email: email} })
-        .then(project => {
-        });
+            .then(project => {
+            });
     }
 
     /**
@@ -33,10 +33,10 @@ export default class Discente {
         await DiscenteDao.findAll().then(result => {
             discentes = result;
         })
-        .catch(err => {
-            console.error(err);
-            discentes = [];
-        });
+            .catch(err => {
+                console.error(err);
+                discentes = [];
+            });
         return discentes;
     }
 

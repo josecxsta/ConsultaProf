@@ -18,6 +18,7 @@
     "@types/cors": "^2.8.5",
     "@types/hapi__joi": "^15.0.3",
     "@types/helmet": "0.0.43",
+    "@types/sequelize": "^4.28.8",
     "async": "^3.0.1",
     "bluebird": "^3.5.5",
     "body-parser": "^1.19.0",
@@ -31,6 +32,7 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "sequelize": "^5.21.2",
+    "sequelize-typescript": "^1.0.0",
     "winston": "^3.2.1"
   },
   "engines": {

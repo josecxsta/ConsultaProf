@@ -1,5 +1,5 @@
-const Sequelize = require('sequelize');
-import sequelize from '../config/sequelize';
+const Sequelize = require("sequelize");
+import sequelize from "../config/sequelize";
 
 const Model = Sequelize.Model;
 
@@ -45,7 +45,7 @@ AvaliacaoDAO.init({
     }
 }, {
     sequelize,
-    modelName: 'avaliacaoDAO'
+    modelName: "avaliacaoDAO"
     // options
 });
 
