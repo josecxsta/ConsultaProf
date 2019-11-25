@@ -5,9 +5,21 @@ const discenteRoute = express.Router();
 discenteRoute.use(express.json());
 
 discenteRoute.route("/")
-    .post(async function (req: any, res) {
-        res.send({});
-    });
+.get(async function (req: any, res) {
+    const discentes = await Discente.getAll();
+    res.send(discentes);
+});
+.post(async function (req: any, res) {
+    const newDiscente = req.body;
+    try {
+        await Discente.insert(newDiscente);
+        res.send({
+            mensagem: "Discente criado com sucesso!"
+        });
+    } catch (e) {
+        res.send(e);
+    }
+});
 
 discenteRoute.param("id", function (req: any, res, next, id) {
     req.discente = {
@@ -17,8 +29,8 @@ discenteRoute.param("id", function (req: any, res, next, id) {
 });
 
 discenteRoute.route("/:id")
-    .get(async function (req: any, res) {
-        res.send({});
-    });
+.get(async function (req: any, res) {
+    res.send({});
+});
 
 export default discenteRoute;

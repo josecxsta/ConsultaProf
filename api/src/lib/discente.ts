@@ -1,9 +1,9 @@
-import DiscenteDao from "../dao/discente";
+import DiscenteDao from "../dao/discente-dao";
 
 /**
- * @class Discente
- * @author José da Costa <josecxsta@gmail.com>
- */
+* @class Discente
+* @author José da Costa <josecxsta@gmail.com>
+*/
 export default class Discente {
     id: number;
     apelido: string;
@@ -20,8 +20,20 @@ export default class Discente {
 
     static async get(email: string) {
         DiscenteDao.findOne({ where: {email: email} })
-            .then(project => {
-            });
+        .then(project => {
+        });
+    }
+
+    /**
+     * Obtém todos os discentes do Banco de dados.
+     * @returns {Array}
+     */
+    static async getAll() {
+        let discentes;
+        await DiscenteDao.findAll().then(result => {
+            discentes = result;
+        });
+        return discentes;
     }
 
 
