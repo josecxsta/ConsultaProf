@@ -23,15 +23,15 @@ export default class Avaliacao {
     }
 
     static async insert(avaliacao) {
-        let result;
+        let response;
         await AvaliacaoDao.create(avaliacao)
-        .then(avaliacao => {
-            result = avaliacao;
+        .then(result => {
+            response = result;
         })
         .catch(err => {
             console.error(err);
         });
-        return result;
+        return response;
     }
 
 }
