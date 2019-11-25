@@ -6,8 +6,14 @@ discenteRoute.use(express.json());
 
 discenteRoute.route("/")
 .get(async function (req: any, res) {
-    const discentes = await Discente.getAll();
-    res.send(discentes);
+    try {
+        const discentes = await Discente.getAll();
+        res.send(discentes);
+    } catch (e) {
+        res.send({
+        mensagem: "Erro interno"
+        }).status(500);
+    }
 })
 .post(async function (req: any, res) {
     const newDiscente = req.body;
