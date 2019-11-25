@@ -4,7 +4,7 @@
   "description": "",
   "main": "./api/dist/app.js",
   "scripts": {
-    "start": "cd api && tsc -w && node ./dist/app.js",
+    "start": "cd api && tsc && node ./dist/app.js",
     "lint": "tsc --noEmit && eslint \"**/*.{tsx,ts}\" --quiet --fix",
     "build-ts": "cd api & tsc",
     "watch-ts": "tsc -w",
