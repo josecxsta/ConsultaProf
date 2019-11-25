@@ -3,6 +3,10 @@ import sequelize from '../config/sequelize';
 
 const Model = Sequelize.Model;
 
+/**
+ * @class DiscenteDao
+ * @author João Carlos Fonseca <fonseca.jc@live.com>
+ */
 class DiscenteDao extends Model {
 
 }
