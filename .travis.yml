@@ -2,12 +2,11 @@ dist: trusty
 language: node_js
 node_js:
   - 10
-  - 12
 
 env:
   global:
     - ANDROID_SDK_ROOT=/opt/android
-    
+
 sudo: required
 
 addons:
@@ -19,8 +18,8 @@ addons:
       - lib32stdc++6 # https://github.com/flutter/flutter/issues/6207
       - libstdc++6
       - curl
-        
-    
+
+
 before_script:
   # Setup gradle.
   - wget https://services.gradle.org/distributions/gradle-4.10.3-bin.zip
@@ -38,7 +37,7 @@ before_script:
   - unzip -qq sdk-tools-linux-4333796.zip -d android-sdk-tools
   - export PATH=`pwd`/android-sdk-tools/tools/bin:$PATH
   - mkdir -p $ANDROID_SDK_ROOT
-  
+
   # This will install the Android SDK 28 using the previously installed SDK tools.
   - yes | sdkmanager --sdk_root=$ANDROID_SDK_ROOT "tools" "build-tools;28.0.3" "extras;android;m2repository" > /dev/null
   - export PATH=${ANDROID_SDK_ROOT}/tools/bin:$PATH
@@ -56,11 +55,11 @@ before_script:
   # worked reasonably well for us and we find stable is usually too outdated
   # and has too many missing framework features.
   - git clone https://github.com/flutter/flutter.git -b beta --depth 1
-  
+
   # Add Flutter to the PATH environment variable.
   - export PATH=`pwd`/flutter/bin:`pwd`/flutter/bin/cache/dart-sdk/bin:$PATH
 
-    
+
 script:
   - cd api/
   - npm install
@@ -70,7 +69,7 @@ script:
   - cd app/
   - flutter doctor -v
   - ./flutter/bin/flutter build apk
-  
+
 
 cache: npm
   directories:
