@@ -22,4 +22,16 @@ export default class Avaliacao {
         return avaliacoes;
     }
 
+    static async insert(avaliacao) {
+        let result;
+        await AvaliacaoDao.create(avaliacao)
+        .then(avaliacao => {
+            result = avaliacao;
+        })
+        .catch(err => {
+            console.error(err);
+        });
+        return result;
+    }
+
 }

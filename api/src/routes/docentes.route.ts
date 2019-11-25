@@ -20,6 +20,15 @@ docenteRoute.route("/")
                     mensagem: "Erro interno"
                 }).status(500);
             }
+        })
+    .post(
+        /**
+         * Insere um novo docente no Banco de dados.
+         * @param req
+         * @param res
+         */
+        async function (req: any, res) {
+
         });
 
 docenteRoute.param("id", function (req: any, res, next, id) {

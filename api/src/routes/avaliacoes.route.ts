@@ -12,7 +12,17 @@ avaliacaoRoute.route("/")
      * @param res
      */
         async function (req: any, res) {
-            res.send({});
+            try {
+                await Avaliacao.insert(req.body);
+                res.send({
+                    mensagem: "Avaliação inserida com sucesso."
+                });
+            } catch (e) {
+                res.send({
+                    mensagem: "Não foi possível inserir avaliação"
+                }).status(500);
+            }
+
         });
 
 avaliacaoRoute.param("id", function (req: any, res, next, id) {
