@@ -8,7 +8,7 @@ discenteRoute.route("/")
 .get(async function (req: any, res) {
     const discentes = await Discente.getAll();
     res.send(discentes);
-});
+})
 .post(async function (req: any, res) {
     const newDiscente = req.body;
     try {

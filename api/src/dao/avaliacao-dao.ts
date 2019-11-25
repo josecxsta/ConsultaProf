@@ -35,4 +35,4 @@ AvaliacaoDAO.init({
     // options
 });
 
-exports default AvaliacaoDAO;
+export default AvaliacaoDAO;
