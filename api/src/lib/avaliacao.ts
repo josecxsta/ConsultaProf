@@ -24,7 +24,7 @@ export default class Avaliacao {
 
     static async insert(avaliacao) {
         let response;
-        await AvaliacaoDao.create(avaliacao)
+        await AvaliacaoDao.build(avaliacao)
         .then(result => {
             response = result;
         })
