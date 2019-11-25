@@ -61,11 +61,9 @@ before_script:
 
 
 script:
-  - cd api/
   - npm install
   - npm run lint
   - npm run test
-  - cd ..
   - cd app/
   - flutter doctor -v
   - ./flutter/bin/flutter build apk
