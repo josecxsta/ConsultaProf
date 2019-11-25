@@ -13,14 +13,13 @@ avaliacaoRoute.route("/")
      */
         async function (req: any, res) {
             try {
-                console.log(req.body);
                 await Avaliacao.insert(req.body);
                 res.send({
                     mensagem: "Avaliação inserida com sucesso."
                 });
             } catch (e) {
                 res.send({
-                    mensagem: "Não foi possível inserir avaliação"
+                    mensagem: "Não foi  possível inserir avaliação"
                 }).status(500);
             }
 

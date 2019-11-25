@@ -8,7 +8,7 @@
     "lint": "tsc --noEmit && eslint \"**/*.{tsx,ts}\" --quiet --fix",
     "build-ts": "cd api && tsc && node ./dist/app.js",
     "watch-ts": "tsc -w",
-    "serve": "concurrently \"npm run watch-ts\" \"nodemon api/src/app.js\"",
+    "serve": "concurrently \"tsc -w\" \"nodemon api/src/app.js\"",
     "test": "jest --forceExit --coverage --verbose"
   },
   "keywords": [],

@@ -13,6 +13,12 @@ class AvaliacaoDAO extends Model {
 
 AvaliacaoDAO.init({
     // attributes
+    discente: {
+        type: Sequelize.INTEGER
+    },
+    docente: {
+        type: Sequelize.INTEGER
+    },
     didatica: {
         type: Sequelize.DOUBLE
     },

@@ -18,7 +18,7 @@ import denuncias from "./routes/denuncias.route";
 
 const app = express();
 
-app.use(cors(), helmet(), compression());
+app.use(cors(), helmet(), compression(), express.json());
 app.disable("x-powered-by");
 
 app.get("/", function(req, res) {

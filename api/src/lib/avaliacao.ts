@@ -24,14 +24,10 @@ export default class Avaliacao {
 
     static async insert(avaliacao) {
         let response;
-        await AvaliacaoDao.build(avaliacao, {fields: [ 'discente', 'docente' ]})
+        await AvaliacaoDao.create(avaliacao)
         .then(result => {
-            console.log(result);
             response = result;
         })
-        .catch(err => {
-            console.error(err);
-        });
         return response;
     }
 
