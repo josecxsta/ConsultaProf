@@ -1,4 +1,4 @@
-import Sequelize from "sequelize";
+const Sequelize = require('sequelize');
 
 const database = {
     host: process.env.CP_DB_HOST,
