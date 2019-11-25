@@ -16,7 +16,7 @@ DisciplinaDao.init({
         type: Sequelize.STRING
     },
     unidadeAcademica: {
-        type: Sequelize.unidadeAcademica
+        type: Sequelize.INTEGER
     },
     ano: {
         type: Sequelize.INT
