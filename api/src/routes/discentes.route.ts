@@ -5,17 +5,29 @@ const discenteRoute = express.Router();
 discenteRoute.use(express.json());
 
 discenteRoute.route("/")
-.get(async function (req: any, res) {
+.get(
+    /**
+     * Obtém todos os discentes.
+     * @param req
+     * @param res
+     */
+    async function (req: any, res) {
     try {
         const discentes = await Discente.getAll();
         res.send(discentes);
     } catch (e) {
         res.send({
-        mensagem: "Erro interno"
+            mensagem: "Erro interno"
         }).status(500);
     }
 })
-.post(async function (req: any, res) {
+.post(
+    /**
+     * Insere novo discente.
+     * @param req
+     * @param res
+     */
+    async function (req: any, res) {
     const newDiscente = req.body;
     try {
         await Discente.insert(newDiscente);
@@ -35,7 +47,13 @@ discenteRoute.param("id", function (req: any, res, next, id) {
 });
 
 discenteRoute.route("/:id")
-.get(async function (req: any, res) {
+.get(
+    /**
+     * Obtém discente pelo seu ID.
+     * @param req
+     * @param res
+     */
+    async function (req: any, res) {
     res.send({});
 });
 
