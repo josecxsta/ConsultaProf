@@ -221,6 +221,7 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 ### Modelagem de domínio
 #### -Diagrama de classes:
+[Contribution guidelines for this project](diagrams/classDiagram.png)
 
 ### Prototipagem inicial:
 
