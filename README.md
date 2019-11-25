@@ -218,7 +218,7 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	- Tem seu nome/apelido e senha usada.
 
 #### Diagrama de classes:
-![Diagrama de classes](diagrams/classDiagram.png)
+![Diagrama de classes](diagrams/png/classDiagram.png)
 
 #### Diagrama de casos de uso:
-![Diagrama de casos de uso](diagrams/useCaseDiagram.png)
+![Diagrama de casos de uso](diagrams/png/useCaseDiagram.png)
