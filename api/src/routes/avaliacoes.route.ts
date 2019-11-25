@@ -5,7 +5,13 @@ const avaliacaoRoute = express.Router();
 avaliacaoRoute.use(express.json());
 
 avaliacaoRoute.route("/")
-.post(async function (req: any, res) {
+.post(
+    /**
+     * Insere nova avaliação no Banco de Dados.
+     * @param req
+     * @param res
+     */
+    async function (req: any, res) {
     res.send({});
 });
 
