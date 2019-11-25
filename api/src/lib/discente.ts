@@ -32,6 +32,10 @@ export default class Discente {
         let discentes;
         await DiscenteDao.findAll().then(result => {
             discentes = result;
+        })
+        .catch(err => {
+            console.error(err);
+            discentes = [];
         });
         return discentes;
     }
