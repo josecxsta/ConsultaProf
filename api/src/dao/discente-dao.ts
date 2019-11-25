@@ -2,7 +2,10 @@ import Sequelize from 'sequelize';
 
 const Model = Sequelize.Model;
 
-class DiscenteDao extends Model {}
+class DiscenteDao extends Model {
+
+}
+
 DiscenteDao.init({
     // attributes
     apelido: {

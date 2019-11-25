@@ -2,14 +2,14 @@
   "name": "consulta-prof-api",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/app.js",
+  "main": "./api/dist/app.js",
   "scripts": {
-    "start": "node ./dist/app.js",
+    "start": "node ./api/dist/app.js",
     "lint": "tsc --noEmit && eslint \"**/*.{tsx,ts}\" --quiet --fix",
     "build": "npm run build-ts",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
-    "serve": "concurrently \"npm run watch-ts\" \"nodemon src/app.js\"",
+    "serve": "concurrently \"npm run watch-ts\" \"nodemon api/src/app.js\"",
     "test": "jest --forceExit --coverage --verbose"
   },
   "keywords": [],
