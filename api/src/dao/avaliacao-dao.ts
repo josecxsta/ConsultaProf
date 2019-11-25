@@ -3,25 +3,22 @@ import sequelize from '../config/sequelize';
 
 const Model = Sequelize.Model;
 
-class AvaliacaoDAO extends Model {}
+class AvaliacaoDAO extends Model {
+
+}
+
 AvaliacaoDAO.init({
     // attributes
-    notaDidatica: {
+    didatica: {
         type: Sequelize.DOUBLE
     },
-    notaCoerencia: {
+    coerencia: {
         type: Sequelize.DOUBLE
     },
-    notaPontualidade: {
+    pontualidade: {
         type: Sequelize.DOUBLE
     },
-    notaCordialidade: {
-        type: Sequelize.DOUBLE
-    },
-    cursariaNovamente: {
-        type: Sequelize.BOOLEAN
-    },
-    mediaNotas: {
+    cordialidade: {
         type: Sequelize.DOUBLE
     },
     comentario: {
@@ -30,6 +27,18 @@ AvaliacaoDAO.init({
     tituloComentario: {
         type: Sequelize.STRING
     },
+    cursariaNovamente: {
+        type: Sequelize.BOOLEAN
+    },
+    disponivel: {
+        type: Sequelize.DOUBLE
+    },
+    dataCriacao: {
+        type: Sequelize.DATE
+    },
+    dataAtualizacao: {
+        type: Sequelize.DATE
+    }
 }, {
     sequelize,
     modelName: 'avaliacaoDAO'
