@@ -31,7 +31,7 @@ class AvaliacoesService {
     );
   }
 
-  Future removeAvaliacao(String email, int idAvaliacao) async {
+  Future denucieAvaliacao(String email, int idAvaliacao) async {
     var url = ApiUrlService().getApi('denuncias/$idAvaliacao');
     await ApiService().post(
       url,
