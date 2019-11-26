@@ -2,14 +2,13 @@
   "name": "consulta-prof-api",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/app.js",
+  "main": "./api/dist/app.js",
   "scripts": {
-    "start": "node ./dist/app.js",
+    "start": "npm install -g typescript && cd api && tsc && node ./dist/app.js",
     "lint": "tsc --noEmit && eslint \"**/*.{tsx,ts}\" --quiet --fix",
-    "build": "npm run build-ts",
-    "build-ts": "tsc",
+    "build-ts": "cd api && tsc && node ./dist/app.js",
     "watch-ts": "tsc -w",
-    "serve": "concurrently \"npm run watch-ts\" \"nodemon src/app.js\"",
+    "serve": "concurrently \"tsc -w\" \"nodemon api/src/app.js\"",
     "test": "jest --forceExit --coverage --verbose"
   },
   "keywords": [],
@@ -19,6 +18,7 @@
     "@types/cors": "^2.8.5",
     "@types/hapi__joi": "^15.0.3",
     "@types/helmet": "0.0.43",
+    "@types/sequelize": "^4.28.8",
     "async": "^3.0.1",
     "bluebird": "^3.5.5",
     "body-parser": "^1.19.0",
@@ -32,6 +32,7 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "sequelize": "^5.21.2",
+    "sequelize-typescript": "^1.0.0",
     "winston": "^3.2.1"
   },
   "engines": {
@@ -54,7 +55,7 @@
     "nodemon": "^1.19.1",
     "supertest": "^4.0.2",
     "ts-jest": "^24.0.2",
-    "ts-node": "^8.3.0",
+    "ts-node": "^8.5.2",
     "typescript": "^3.5.2"
   }
 }

@@ -1,4 +1,4 @@
-import database from "../config/database";
+import DocenteDao from "../dao/docente-dao";
 
 /**
  * @class Docente
@@ -12,6 +12,22 @@ export default class Docente {
     dataAtualizacao: Date;
 
     constructor() {
+    }
+
+    /**
+     * Obtém todos os docentes do Banco de dados.
+     * @returns {Array}
+     */
+    static async getAll() {
+        let docentes;
+        await DocenteDao.findAll().then(result => {
+            docentes = result;
+        })
+            .catch(err => {
+                console.error(err);
+                docentes = [];
+            });
+        return docentes;
     }
 
 }

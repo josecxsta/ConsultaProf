@@ -5,9 +5,25 @@ const avaliacaoRoute = express.Router();
 avaliacaoRoute.use(express.json());
 
 avaliacaoRoute.route("/")
-    .post(async function (req: any, res) {
-        res.send({});
-    });
+    .post(
+    /**
+     * Insere nova avaliação no Banco de Dados.
+     * @param req
+     * @param res
+     */
+        async function (req: any, res) {
+            try {
+                await Avaliacao.insert(req.body);
+                res.send({
+                    mensagem: "Avaliação inserida com sucesso."
+                });
+            } catch (e) {
+                res.send({
+                    mensagem: "Não foi  possível inserir avaliação"
+                }).status(500);
+            }
+
+        });
 
 avaliacaoRoute.param("id", function (req: any, res, next, id) {
     req.discente = {
@@ -16,9 +32,17 @@ avaliacaoRoute.param("id", function (req: any, res, next, id) {
     next();
 });
 
+
 avaliacaoRoute.route("/:id")
-    .get(async function (req: any, res) {
-        res.send({});
-    });
+    .get(
+    /**
+     * Obtém todas as avaliações de um docente.
+     * @param req
+     * @param res
+     */
+        async function (req: any, res) {
+            const avaliacoes = await Avaliacao.getAll(req.discente.id);
+            res.send(avaliacoes);
+        });
 
 export default avaliacaoRoute;
