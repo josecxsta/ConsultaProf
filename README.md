@@ -193,7 +193,7 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	- Docente possui ao menos uma avaliação.
 	Pós-condições (garantia de sucesso):
 	- A contestação será enviada ao moderador e notificada ao discente.
-	Cenário de sucesso principal​ :
+	Cenário de sucesso principal​:
 	- Lê as avaliações já publicadas;
 	- Escolhe a avaliação a ser contestada;
 	- Contesta avaliação;
