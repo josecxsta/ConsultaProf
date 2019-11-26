@@ -2,10 +2,10 @@
 const request =  require("supertest");
 import app from "../src/app";
 
-describe("App Endpoint Test", () => {
+describe("Teste requisição a raíz", () => {
 
     describe("GET /", () => {
-        it("should return 200 OK", () => {
+        it("deve retornar 200 OK", () => {
             return request(app)
                 .get("/")
                 .expect(200);
