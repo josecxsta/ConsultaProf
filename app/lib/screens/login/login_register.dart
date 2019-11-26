@@ -5,23 +5,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
 
-class LoginRegister extends StatefulWidget {
-  @override
-  _LoginRegisterState createState() => _LoginRegisterState();
-}
+        class LoginRegister extends StatefulWidget {
+        @override
+        _LoginRegisterState createState() => _LoginRegisterState();
+        }
 
-class _LoginRegisterState extends State<LoginRegister> {
-  @override
-  Widget build(BuildContext context) {
-    var usuario = TextEditingController();
-    var senha = TextEditingController();
-    var matricula = TextEditingController();
-    var codigoVerificacao = TextEditingController();
-    var dataEmissao = MaskedTextController(mask: '00/00/0000');
+        class _LoginRegisterState extends State<LoginRegister> {
+        @override
+        Widget build(BuildContext context) {
+        var usuario = TextEditingController();
+        var senha = TextEditingController();
+        var matricula = TextEditingController();
+        var codigoVerificacao = TextEditingController();
+        var email = TextEditingController();
 
-    return Scaffold(
-      appBar: AppBar(
-      ),
+        return Scaffold(
+      appBar: AppBar(),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: ListView(
@@ -57,9 +56,8 @@ class _LoginRegisterState extends State<LoginRegister> {
               controller: codigoVerificacao,
             ),
             TextFormField(
-              keyboardType: TextInputType.number,
-              decoration: InputDecoration(labelText: "Data Emissão"),
-              controller: dataEmissao,
+              decoration: InputDecoration(labelText: "E-mail"),
+              controller: email,
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 70),
@@ -72,10 +70,10 @@ class _LoginRegisterState extends State<LoginRegister> {
                       senha: senha.text,
                       matricula: matricula.text);
                   if (result.token.isNotEmpty) {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Container()),
-                    );
+                    var result = await _monteShowDialogConfirmacao(context);
+                    if (result) {
+                      Navigator.pop(context);
+                    }
                   }
                 },
               ),
@@ -105,6 +103,28 @@ class _LoginRegisterState extends State<LoginRegister> {
         return Theme(
           data: ThemeData(),
           child: child,
+        );
+      },
+    );
+  }
+
+  Future _monteShowDialogConfirmacao(BuildContext context) {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text("Confirmação"),
+          content: Text(
+            "Obrigado por ter se cadastrado!\nLogo mais entraremos em contato por e-mail com a confirmação do seu cadastro.",
+          ),
+          actions: [
+            FlatButton(
+              child: Text("OK"),
+              onPressed: () {
+                Navigator.pop(context, true);
+              },
+            ),
+          ],
         );
       },
     );
