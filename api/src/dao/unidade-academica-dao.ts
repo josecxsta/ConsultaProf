@@ -24,7 +24,7 @@ UnidadeAcademicaDao.init({
     }
 }, {
     sequelize,
-    modelName: "unidadeAcademica"
+    modelName: "unidadesacademicas"
     // options
 });
 
