@@ -226,7 +226,7 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 #### Cronograma:
 
 |   ID   |  Assunto  |    Iteração    |    Fonte do requisito    |    Última atualização    |
-| :---         |     :---:      |     :---:      |     :---:      |     :---:      |          ---: |
+| :---         |     :---:      |     :---:      |     :---:      |         ---: |
 | E1     | Implementação da interface do cadastro de discente.     | 1   | RF01    | 22/10/2019    |
 | E2     | Configuração do projeto no GitHub.       | 1      | RNF07    | 28/10/2019    |
 | E3     | Projeto da aplicação em Flutter.       | 1      | RNF04    | 28/10/2019    |
