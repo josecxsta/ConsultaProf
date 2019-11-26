@@ -55,9 +55,8 @@ a visão que possuem sobre esse tipo de avaliação).
 
 #### RF01
 
-Como discente, desejo validar minha conta do SIGAA para que possa acessar o
-sistema e realizar avaliações. Os dados necessários para a validação são: matrícula, o
-código de verificação e data de emissão da declaração de vínculo.
+Como discente, desejo me cadastrar para que possa acessar o
+sistema e realizar avaliações. Os dados necessários para a cadastro são: matrícula, apelido, email e senha.
 
 #### RF02
 
@@ -108,7 +107,7 @@ encontrá-lo.
 Como discente, desejo poder editar a avaliação do docente para que possa corrigir
 algum erro no momento da avaliação do discente.
 
-#### RF07
+#### RF08
 
 Como​ discente, desejo​ poder excluir a avaliação do docente.
 
@@ -222,3 +221,31 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 #### Diagrama de casos de uso:
 ![Diagrama de casos de uso](diagrams/png/useCaseDiagram.png)
+
+#### Cronograma definido na primeira iteração:
+
+|   ID   |  Assunto  |    Iteração    |    Fonte do requisito    |    Última atualização    |
+| :---         |     :---:      |     :---:      |     :---:      |         ---: |
+| E1     | Implementação da interface do cadastro de discente.     | 1   | RF01    | 22/10/2019    |
+| E2     | Configuração do projeto no GitHub.       | 1      | RNF07    | 28/10/2019    |
+| E3     | Projeto da aplicação em Flutter.       | 1      | RNF04    | 28/10/2019    |
+| E4     | Projeto da API em TypeScript.       | 1      | RNF03, RNF05    | 28/10/2019    |
+| E5     | Configuração do Travis CI para API.       | 1      | RNF08    | 28/10/2019    |
+| E6     | Design do Banco de Dados.       | 1      | RNF06    | 28/10/2019    |
+| E7     | Módulo para reportar avaliação.       | 2      | RF02    | 25/11/2019    |
+| E8     | Módulo preenchimento de avaliação.       | 2      | RF05, RF07    | 25/11/2019    |
+
+#### Subdivisão das tarefas para a segunda iteração:
+
+|   ID   |  Atividade  |    Responsáveis    |
+| :---         |     :---:      |         ---: |
+| 1     | Artefatos implementados na 1a e 2a iterações: casos de uso, diagrama de classes e do repositório de dados (e.x. DER)    |  João Carlos  |
+| 2     | Camada de persistência de dados       | João Carlos |
+| 3     | Camada de lógica de negócio       | José Costa |
+| 4     | Camada de apresentação        | Gustavo Henrique |
+| 5     | Percentual de cobertura dos requisitos da 2a iteração      | João Carlos |
+| 6     | Integração contínua (estilo Maven)       | José Costa |
+| 7     | Documentação do projeto (estilo Javadoc) | João Carlos |
+| 8     | Relatório de análise estática de código do projeto       | José Costa |
+
+
