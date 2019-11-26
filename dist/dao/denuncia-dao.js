@@ -1,16 +1,17 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
 const Sequelize = require("sequelize");
-import sequelize from "../config/sequelize";
-
+const sequelize_1 = __importDefault(require("../config/sequelize"));
 const Model = Sequelize.Model;
-
 /**
  * @class DenunciaDao
  * @author João Carlos Fonseca <fonseca.jc@live.com>
  */
 class DenunciaDao extends Model {
-
 }
-
 DenunciaDao.init({
     avaliacao: {
         type: Sequelize.INTEGER,
@@ -28,8 +29,8 @@ DenunciaDao.init({
         type: Sequelize.DATE
     }
 }, {
-    sequelize,
+    sequelize: sequelize_1.default,
     modelName: "denuncias"
 });
-
-export default DenunciaDao;
+exports.default = DenunciaDao;
+//# sourceMappingURL=denuncia-dao.js.map

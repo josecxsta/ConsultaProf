@@ -55,30 +55,30 @@ a visão que possuem sobre esse tipo de avaliação).
 
 #### RF01
 
-Como discente, ​ desejo validar minha conta do SIGAA ​ para que ​ possa acessar o
+Como discente, desejo validar minha conta do SIGAA para que possa acessar o
 sistema e realizar avaliações. Os dados necessários para a validação são: matrícula, o
 código de verificação e data de emissão da declaração de vínculo.
 
 #### RF02
 
-Como docente, ​ desejo requisitar um pedido de exclusão da avaliação ​ para que ​ não
+Como docente, desejo requisitar um pedido de exclusão da avaliação para que não
 tenha comentários que ofendam o docente ou não sejam verdade. Esse pedido será
 avaliado pelo moderador e o docente será notificado através do e-mail.
 
 #### RF03
 
-Como sistema ConsultaProf, ​ desejo ​ importar do Portal UFGNet os dados de
-professores ​ para que ​ possa disponibilizar uma listagem dos professores para que os
+Como sistema ConsultaProf, desejo importar do Portal UFGNet os dados de
+professores para que possa disponibilizar uma listagem dos professores para que os
 docentes escolham quem irão avaliar.
 
 #### RF04
 
-Como sistema ConsultaProf, ​ desejo ​ importar do SIGAA os dados dos alunos do INF
-para que ​ possa validar o login do discente.
+Como sistema ConsultaProf, desejo importar do SIGAA os dados dos alunos do INF
+para que possa validar o login do discente.
 
 #### RF05
 
-Como discente, ​ desejo avaliar o docente ​ para que tenha conteúdo onde os alunos
+Como discente, desejo avaliar o docente para que tenha conteúdo onde os alunos
 possam consultar. Os dados relativos à disciplina avaliada são:
 
 - Nome;
@@ -100,21 +100,21 @@ complementar sua avaliação adicionando um comentário e um título para o come
 
 #### RF06
 
-Como usuário, ​ desejo buscar o docente pelo nome ​ para que seja mais fácil de
+Como usuário, desejo buscar o docente pelo nome para que seja mais fácil de
 encontrá-lo.
 
 #### RF07
 
-Como discente, ​ desejo poder editar a avaliação do docente ​ para que ​ possa corrigir
+Como discente, desejo poder editar a avaliação do docente para que possa corrigir
 algum erro no momento da avaliação do discente.
 
 #### RF07
 
-Como​ discente, ​ desejo​ poder excluir a avaliação do docente.
+Como​ discente, desejo​ poder excluir a avaliação do docente.
 
 #### RF09
 
-Como ​ discente, ​ desejo escolher um nome/apelido no cadastro para não revelar minha
+Como discente, desejo escolher um nome/apelido no cadastro para não revelar minha
 identidade.
 
 ### Requisitos não-funcionais
@@ -164,11 +164,11 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 #### Caso de uso 01:
 
-	Nome : Avaliar docente.
-	Ator principal​ : Discente.
-	Interessados e interesses​ : Discente, Moderador.
+	Nome: Avaliar docente.
+	Ator principal​: Discente.
+	Interessados e interesses​: Discente, Moderador.
 
-	Pré-condições​ :
+	Pré-condições​:
 
 	- Discente está autenticado.
 	- Docente está registrado no sistema.
@@ -178,7 +178,7 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	- Avaliação realizada e submetida ao moderador,
 	quem irá autorizar a publicação da avaliação.
 
-	Cenário de sucesso principal​ :
+	Cenário de sucesso principal:
 
 	- Discente acessa a página inicial;
 	- Procura pelo docente e acessa sua página;
@@ -187,13 +187,13 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 #### Caso de uso 02:
 
 	Nome: Contestar avaliação.
-	Ator principal​ : Docente.
-	Interessados e interesses​ : Moderador.
-	Pré-condições​ :
+	Ator principal​: Docente.
+	Interessados e interesses​: Moderador.
+	Pré-condições​:
 	- Docente possui ao menos uma avaliação.
 	Pós-condições (garantia de sucesso):
 	- A contestação será enviada ao moderador e notificada ao discente.
-	Cenário de sucesso principal​ :
+	Cenário de sucesso principal​:
 	- Lê as avaliações já publicadas;
 	- Escolhe a avaliação a ser contestada;
 	- Contesta avaliação;
@@ -205,14 +205,14 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 
 #### Caso de uso 03:
 
-	Nome : Cadastro de discente.
-	Ator principal​ : Discente.
-	Interessados e interesses​ : Discente.
-	Pré-condições​ :
+	Nome: Cadastro de discente.
+	Ator principal​: Discente.
+	Interessados e interesses​: Discente.
+	Pré-condições​:
 	- Discente está matriculado na UFG.
 	Pós-condições (garantia de sucesso): O discente será cadastrado e autenticado no
 	app.
-	Cenário de sucesso principal​ :
+	Cenário de sucesso principal​:
 	- Docente acessa de login.
 	- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.
 	- Tem seu nome/apelido e senha usada.

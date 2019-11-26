@@ -15,13 +15,24 @@ export default class Discente {
     dataCriacao: Date;
     dataAtualizacao: Date;
 
-    constructor() {
+    /**
+     * Construtor privado.
+     */
+    private constructor() {
     }
 
-    static async get(email: string) {
-        DiscenteDao.findOne({ where: {email: email} })
-            .then(project => {
+    /**
+     * Obtém discente pelo seu id
+     * @param {number} id
+     * @return {object} discente 
+     */
+    static async get(id: number) {
+        let discente;
+        DiscenteDao.findOne({ where: {id: id} })
+            .then(result => {
+                discente = result;
             });
+        return discente;
     }
 
     /**
@@ -40,9 +51,13 @@ export default class Discente {
         return discentes;
     }
 
-    static async insert(obj) {
-
+    /**
+     * Insere discente no banco de dados
+     * @param {object} discente 
+     */
+    static async insert(discente) {
+        return await DiscenteDao.create(discente);
     }
 
-
 }
+
