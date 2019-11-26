@@ -1,3 +1,4 @@
+import DiscenteDao from "../dao/discente-dao";
 
 /**
  * @class Autenticacao

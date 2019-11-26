@@ -15,7 +15,10 @@ export default class Discente {
     dataCriacao: Date;
     dataAtualizacao: Date;
 
-    constructor() {
+    /**
+     * Construtor privado.
+     */
+    private constructor() {
     }
 
     /**
