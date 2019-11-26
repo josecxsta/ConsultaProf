@@ -13,21 +13,24 @@ class ProfessoresState {
     this.filtro,
   });
 
-
-  List<DocenteModel> _apliqueFiltroProfessores(
-      List<DocenteModel> professores) {
-    return filtro.isEmpty ? professores : professores.where((c) => c.nome.toUpperCase().startsWith((filtro.toUpperCase())));
+  List<DocenteModel> get professoresFiltrados {
+    if (filtro.isEmpty) {
+      return professores;
+    }
+    return professores.where((c) => c.nome.toLowerCase().startsWith(filtro)).toList();
   }
 
   factory ProfessoresState.initializing() {
     return ProfessoresState(
       isInitializing: true,
+      filtro: "",
     );
   }
 
   factory ProfessoresState.loading() {
     return ProfessoresState(
       isLoading: true,
+      filtro: "",
     );
   }
 
@@ -35,7 +38,8 @@ class ProfessoresState {
     return ProfessoresState(
       isInitializing: false,
       isLoading: false,
-      professores: professores
+      professores: professores,
+      filtro: "",
     );
   }
 
@@ -60,5 +64,4 @@ class ProfessoresState {
   ProfessoresState limpeFiltro() {
     return this._copyWith(filtro: "");
   }
-
 }

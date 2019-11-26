@@ -46,6 +46,7 @@ import 'package:flutter_masked_text/flutter_masked_text.dart';
             TextFormField(
               decoration: InputDecoration(labelText: "senha"),
               controller: senha,
+              obscureText: true,
             ),
             TextFormField(
               decoration: InputDecoration(labelText: "matrícula"),

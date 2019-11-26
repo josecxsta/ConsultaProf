@@ -14,7 +14,7 @@ class ProfessoresListWidget extends StatefulWidget {
 class _ProfessoresListWidgetState extends State<ProfessoresListWidget> {
   @override
   Widget build(BuildContext context) {
-    var professores = widget.bloc.state.professores;
+    var professores = widget.bloc.state.professoresFiltrados;
     return ListView.builder(
       itemCount: professores.length,
       itemBuilder: (context, index) {

@@ -33,7 +33,6 @@ class _LoginFormState extends State<LoginForm> {
         children: <Widget>[
           Container(
             alignment: Alignment.center,
-            padding: EdgeInsets.only(left: 110, right: 100),
             child: Text(
               'Login',
               style: TextStyle(
@@ -41,14 +40,7 @@ class _LoginFormState extends State<LoginForm> {
                   fontSize: 15),
             ),
           ),
-          Align(
-            heightFactor: 0,
-            widthFactor: 0,
-            child: Icon(
-              Icons.arrow_forward_ios,
-              color: Colors.white,
-            ),
-          )
+
         ],
       );
     }
@@ -115,7 +107,7 @@ class _LoginFormState extends State<LoginForm> {
             ),
             Container(
               height: 55,
-              width: MediaQuery.of(context).size.width / 1.2,
+              width: double.infinity,
               color: Colors.white,
               child: FlatButton(
                 shape: RoundedRectangleBorder(
