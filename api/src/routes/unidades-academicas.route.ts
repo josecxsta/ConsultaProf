@@ -27,7 +27,18 @@ uaRoute.route("/")
          * @param res
          */
         async function (req: any, res) {
-
+            const newDiscente = req.body;
+            try {
+                await UnidadeAcademica.insert(newDiscente);
+                res.send({
+                    mensagem: "Unidade Acadêmica criado com sucesso!"
+                });
+            } catch (err) {
+                console.error(err);
+                res.send({
+                    mensagem: "Erro ao inserir Unidade Acadêmica"
+                }).status(500);
+            }
         });
 
 

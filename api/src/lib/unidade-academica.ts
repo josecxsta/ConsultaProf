@@ -1,4 +1,5 @@
 import UnidadeAcademicaDao from "../dao/unidade-academica-dao";
+import { response } from "express";
 
 /**
  * @class UnidadeAcademica
@@ -11,7 +12,10 @@ export default class UnidadeAcademica {
     dataCriacao: Date;
     dataAtualizacao: Date;
 
-    constructor() {
+    /**
+     * Construtor privado para ser utilizado no factory method.
+     */
+    private constructor() {
     }
 
     /**
@@ -28,6 +32,19 @@ export default class UnidadeAcademica {
             unidadesAcademicas = [];
         });
         return unidadesAcademicas;
+    }
+
+    /**
+     * Insere nova unidade acadêmica no banco de dados.
+     * @param {object} unidadeAcademica 
+     */
+    static async insert(unidadeAcademica) {
+        let response;
+        await UnidadeAcademicaDao.create(unidadeAcademica)
+        .then(result => {
+            response = result;
+        });
+        return response;
     }
 
 }
