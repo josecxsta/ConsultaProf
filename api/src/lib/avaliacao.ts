@@ -10,9 +10,18 @@ export default class Avaliacao {
     dataCriacao: Date;
     dataAtualizacao: Date;
 
-    constructor() {
+    /**
+     * Construtor privado para utilizar no factory.
+     * TODO: Método factory
+     */
+    private constructor() {
     }
 
+    /**
+     * Obtém todas avaliações de um determinado docente.
+     * @param {number} docente
+     * @returns {array} avaliacoes
+     */
     static async getAll(docente) {
         let avaliacoes;
         await AvaliacaoDao.findOne({ where: {docente: docente} })
@@ -22,6 +31,11 @@ export default class Avaliacao {
         return avaliacoes;
     }
 
+    /**
+     * Insere avaliação no banco de dados.
+     * @param {object} avaliacao
+     * @return response
+     */
     static async insert(avaliacao) {
         let response;
         await AvaliacaoDao.create(avaliacao)
