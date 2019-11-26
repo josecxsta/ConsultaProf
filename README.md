@@ -23,9 +23,9 @@ Definir as seguintes variáveis de ambiente com as credenciais do banco de dados
 
 Execute o comando `npm run test` para realização dos testes unitários com Jest.
 
-### Análise sintática
+### Análise estática
 
-Execute o comando `npm run lint` para a realização da análise sintática do código em TypeScript.
+Execute o comando `npm run lint` para a realização da análise estática do código em TypeScript.
 
 ### Documentação
 
