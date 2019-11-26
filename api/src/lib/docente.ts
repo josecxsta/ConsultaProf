@@ -23,10 +23,10 @@ export default class Docente {
         await DocenteDao.findAll().then(result => {
             docentes = result;
         })
-        .catch(err => {
-            console.error(err);
-            docentes = [];
-        });
+            .catch(err => {
+                console.error(err);
+                docentes = [];
+            });
         return docentes;
     }
 
@@ -38,13 +38,13 @@ export default class Docente {
     static async getByUnidadeAcademica(unidadeAcademica) {
         let docentes;
         await DocenteDao.findAll({ where: { unidadeAcademica: unidadeAcademica}})
-        .then(result => {
-            docentes = result;
-        })
-        .catch(err => {
-            console.error(err);
-            docentes = [];
-        });
+            .then(result => {
+                docentes = result;
+            })
+            .catch(err => {
+                console.error(err);
+                docentes = [];
+            });
         return docentes;
     }
 

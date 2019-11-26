@@ -19,16 +19,16 @@ denunciaRoute.route("/:id")
          * @param res 
          */
         async function (req: any, res) {
-        try {
-            await Denuncia.insert(req.avaliacao.id, req.body.email);
-            res.send({
-                mensagem: "Denuncia enviada com sucesso."
-            });
-        } catch (err) {
-            res.send({
-                mensagem: "Erro ao enviar denuncia."
-            }).status(500);
-        }
-    });
+            try {
+                await Denuncia.insert(req.avaliacao.id, req.body.email);
+                res.send({
+                    mensagem: "Denuncia enviada com sucesso."
+                });
+            } catch (err) {
+                res.send({
+                    mensagem: "Erro ao enviar denuncia."
+                }).status(500);
+            }
+        });
 
 export default denunciaRoute;

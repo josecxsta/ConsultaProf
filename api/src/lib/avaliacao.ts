@@ -39,9 +39,9 @@ export default class Avaliacao {
     static async insert(avaliacao) {
         let response;
         await AvaliacaoDao.create(avaliacao)
-        .then(result => {
-            response = result;
-        })
+            .then(result => {
+                response = result;
+            });
         return response;
     }
 

@@ -54,7 +54,7 @@ discenteRoute.route("/:id")
      * @param res
      */
         async function (req: any, res) {
-            await Discente.get(req.discente.id)
+            await Discente.get(req.discente.id);
         });
 
 

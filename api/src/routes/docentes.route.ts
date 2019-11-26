@@ -60,9 +60,9 @@ docenteRoute.route("/unidade-academica/:unidadeAcademica")
             } catch (err) {
                 res.send({
                     mensagem: "Não foi possível consultar os docentes"
-                })
+                });
             }
         }
-    )
+    );
 
 export default docenteRoute;

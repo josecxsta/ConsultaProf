@@ -31,9 +31,9 @@ export default class Denuncia {
             avaliacao: avaliacao,
             email: email
         })
-        .then(result => {
-            response = result;
-        });
+            .then(result => {
+                response = result;
+            });
         return response;
     }
 

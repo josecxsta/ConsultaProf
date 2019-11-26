@@ -40,16 +40,16 @@ avaliacaoRoute.route("/:id")
      * @param req
      * @param res
      */
-    async function (req: any, res) {
-        try {
-            const avaliacoes = await Avaliacao.getAll(req.docente.id);
-            res.send(avaliacoes);
-        } catch (err) {
-            console.error(err);
-            res.send({
-                mensagem: "Erro ao consultar avaliações"
-            }).status(500);
-        }
-    });
+        async function (req: any, res) {
+            try {
+                const avaliacoes = await Avaliacao.getAll(req.docente.id);
+                res.send(avaliacoes);
+            } catch (err) {
+                console.error(err);
+                res.send({
+                    mensagem: "Erro ao consultar avaliações"
+                }).status(500);
+            }
+        });
 
 export default avaliacaoRoute;

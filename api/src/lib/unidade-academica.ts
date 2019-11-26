@@ -27,10 +27,10 @@ export default class UnidadeAcademica {
         await UnidadeAcademicaDao.findAll().then(result => {
             unidadesAcademicas = result;
         })
-        .catch(err => {
-            console.error(err);
-            unidadesAcademicas = [];
-        });
+            .catch(err => {
+                console.error(err);
+                unidadesAcademicas = [];
+            });
         return unidadesAcademicas;
     }
 
@@ -41,9 +41,9 @@ export default class UnidadeAcademica {
     static async insert(unidadeAcademica) {
         let response;
         await UnidadeAcademicaDao.create(unidadeAcademica)
-        .then(result => {
-            response = result;
-        });
+            .then(result => {
+                response = result;
+            });
         return response;
     }
 
