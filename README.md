@@ -232,9 +232,8 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 | E4     | Projeto da API em TypeScript.       | 1      | RNF03, RNF05    | 28/10/2019    |
 | E5     | Configuração do Travis CI para API.       | 1      | RNF08    | 28/10/2019    |
 | E6     | Design do Banco de Dados.       | 1      | RNF06    | 28/10/2019    |
-| E7     | Implementação da validação de cadastro pelo SIGAA. | 2            | RF01      | 25/11/2019    |
-| E8     | Módulo para reportar avaliação.       | 2      | RF02    | 25/11/2019    |
-| E9     | Módulo preenchimento de avaliação.       | 2      | RF05, RF07    | 25/11/2019    |
+| E7     | Módulo para reportar avaliação.       | 2      | RF02    | 25/11/2019    |
+| E8     | Módulo preenchimento de avaliação.       | 2      | RF05, RF07    | 25/11/2019    |
 
 #### Subdivisão das tarefas para a segunda iteração:
 
