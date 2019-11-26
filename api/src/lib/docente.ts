@@ -30,4 +30,22 @@ export default class Docente {
         return docentes;
     }
 
+    /**
+     * Obtém todos os docentes de determinada unidade academica.
+     * @param {number} unidadeAcademica
+     * @returns {Array}
+     */
+    static async getByUnidadeAcademica(unidadeAcademica) {
+        let docentes;
+        await DocenteDao.findAll({ where: { unidadeAcademica: unidadeAcademica}})
+        .then(result => {
+            docentes = result;
+        })
+        .catch(err => {
+            console.error(err);
+            docentes = [];
+        });
+        return docentes;
+    }
+
 }

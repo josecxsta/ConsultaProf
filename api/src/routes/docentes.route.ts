@@ -43,4 +43,26 @@ docenteRoute.route("/:id")
         res.send({});
     });
 
+docenteRoute.param("unidadeAcademica", function (req: any, res, next, id) {
+    req.unidadeAcademica = {
+        id: id
+    };
+    next();
+});
+
+docenteRoute.route("/unidade-academica/:unidadeAcademica")
+    .get(
+        async function (req: any, res) {
+            try {
+                const docentes = await Docente
+                    .getByUnidadeAcademica(req.unidadeAcademica.id);
+                res.send(docentes);
+            } catch (err) {
+                res.send({
+                    mensagem: "Não foi possível consultar os docentes"
+                })
+            }
+        }
+    )
+
 export default docenteRoute;
