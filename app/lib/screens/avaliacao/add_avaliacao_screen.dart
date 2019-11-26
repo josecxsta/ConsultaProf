@@ -136,6 +136,7 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
                   if (result) {
                     await _adicionaAvaliacao();
                     Navigator.pop(context);
+                    Navigator.pop(context);
                   }
                 },
                 color: Colors.blue,

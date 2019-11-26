@@ -24,7 +24,7 @@ class ApiService {
     body,
   }) async {
     return Dio(_crieOpcoes(headers))
-        .post(url)
+        .post(url, data: body)
         .then((response) {
       if (response.statusCode != 200) _handleResponseError(url, response);
     });

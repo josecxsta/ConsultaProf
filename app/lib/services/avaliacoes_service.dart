@@ -23,10 +23,10 @@ class AvaliacoesService {
         "didatica": avaliacao.notaDidatica,
         "coerencia": avaliacao.notaCoerencia,
         "pontualidade": avaliacao.notaPontualidade,
-        "disponivel": avaliacao.notaDisponibilidade,
         "comentario": "${avaliacao.comentario}",
         "tituloComentario": "${avaliacao.tituloComentario}",
-        "cursariaNovamente": avaliacao.cursariaNovamente,
+        "cursariaNovamente": "${avaliacao.cursariaNovamente}",
+        "disponivel": avaliacao.notaDisponibilidade
       },
     );
   }
