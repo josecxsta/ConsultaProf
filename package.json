@@ -10,7 +10,7 @@
     "watch-ts": "tsc -w",
     "serve": "concurrently \"tsc -w\" \"nodemon api/src/app.js\"",
     "test": "jest --forceExit --coverage --verbose",
-    "doc": "jsdoc api/src"
+    "doc": "jsdoc api/"
   },
   "keywords": [],
   "author": "José da Costa Nunes Neto",
