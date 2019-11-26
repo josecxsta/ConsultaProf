@@ -1,7 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:consulta_prof/blocs/professores/professores_event.dart';
 import 'package:consulta_prof/blocs/professores/professores_state.dart';
-import 'package:consulta_prof/models/professor_model.dart';
+import 'package:consulta_prof/models/docente_model.dart';
+import 'package:consulta_prof/services/docentes_service.dart';
 
 class ProfessoresBloc extends Bloc<ProfessoresEvent, ProfessoresState> {
   @override
@@ -11,7 +12,7 @@ class ProfessoresBloc extends Bloc<ProfessoresEvent, ProfessoresState> {
   Stream<ProfessoresState> mapEventToState(ProfessoresEvent event) async* {
     if (event is ProfessoresStartEvent) {
       yield ProfessoresState.loading();
-      var professores = _obtenhaProfessores();
+      var professores = await _obtenhaProfessores();
       yield ProfessoresState.loaded(professores);
       return;
     }
@@ -27,10 +28,9 @@ class ProfessoresBloc extends Bloc<ProfessoresEvent, ProfessoresState> {
     }
   }
 
-  List<ProfessorModel> _obtenhaProfessores() {
-    return List<ProfessorModel>()
-      ..add(ProfessorModel(id: 1, nome: 'João Zaffari',),)..add(
-        ProfessorModel(id: 2, nome: 'Leticia Brandão',),);
+  Future<List<DocenteModel>> _obtenhaProfessores() async {
+    var docentes = await DocenteService().obtenhaDocentes();
+    return docentes;
   }
 
 }

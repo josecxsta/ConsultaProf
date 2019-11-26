@@ -4,30 +4,19 @@ import 'package:consulta_prof/services/api_response.dart';
 import 'package:dio/dio.dart';
 
 class ApiService {
-  Future<ApiResponse> get(
+  Future<dynamic> get(
     url, {
     Map<String, String> headers,
     Map<String, String> params,
   }) async {
     return Dio(_crieOpcoes(headers))
-        .get(_monteUrl(params, url))
+        .get(url)
         .then((response) {
       if (response.statusCode != 200) _handleResponseError(url, response);
-      return _convert(response);
+      return response.data;
     });
   }
 
-  _monteUrl(Map<String, String> params, url) {
-    if (params.length > 0) {
-      var ulrParams = params.entries
-          .map((entry) => "${entry.key}=${entry.value}")
-          .fold("", (previous, element) => "$previous&$element")
-          .substring(1);
-
-      url = "$url?$ulrParams";
-    }
-    return url;
-  }
 
   Future<ApiResponse> post(
     url, {

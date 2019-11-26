@@ -1,9 +1,9 @@
-import 'package:consulta_prof/models/professor_model.dart';
+import 'package:consulta_prof/models/docente_model.dart';
 
 class ProfessoresState {
   final bool isInitializing;
   final bool isLoading;
-  final List<ProfessorModel> professores;
+  final List<DocenteModel> professores;
   final String filtro;
 
   ProfessoresState({
@@ -14,8 +14,8 @@ class ProfessoresState {
   });
 
 
-  List<ProfessorModel> _apliqueFiltroProfessores(
-      List<ProfessorModel> professores) {
+  List<DocenteModel> _apliqueFiltroProfessores(
+      List<DocenteModel> professores) {
     return filtro.isEmpty ? professores : professores.where((c) => c.nome.toUpperCase().startsWith((filtro.toUpperCase())));
   }
 
@@ -31,7 +31,7 @@ class ProfessoresState {
     );
   }
 
-  factory ProfessoresState.loaded(List<ProfessorModel> professores) {
+  factory ProfessoresState.loaded(List<DocenteModel> professores) {
     return ProfessoresState(
       isInitializing: false,
       isLoading: false,
@@ -42,7 +42,7 @@ class ProfessoresState {
   ProfessoresState _copyWith({
     bool isInitializing,
     bool isLoading,
-    Iterable<ProfessorModel> professores,
+    Iterable<DocenteModel> professores,
     String filtro,
   }) {
     return ProfessoresState(

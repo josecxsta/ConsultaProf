@@ -23,15 +23,12 @@ class ApplicationState {
     );
   }
 
-  factory ApplicationState.authenticated({
-    @required SessionModel session,
-  }) {
-    assert(session != null);
+  factory ApplicationState.authenticated() {
     return ApplicationState(
       isInitializing: false,
       isLoading: false,
       isAuthenticated: true,
-      session: session,
+      session: null,
     );
   }
 

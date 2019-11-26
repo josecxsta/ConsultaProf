@@ -15,7 +15,7 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
   @override
   Stream<LoginState> mapEventToState(LoginEvent event) async* {
     if (event is LoginButtonPressedEvent) {
-      if (event.login.isEmpty || event.senha.isEmpty) {
+       if (event.login.isEmpty || event.senha.isEmpty) {
         yield LoginState.failure("Informe login e a senha");
         return;
       }

@@ -16,16 +16,21 @@ class _ProfessoresScreenState extends State<ProfessoresScreen> {
   ProfessoresBloc _professoresBloc;
   TextEditingController _controllerPesquisa = TextEditingController();
 
-
   @override
   void initState() {
     super.initState();
     _professoresBloc = ProfessoresBloc();
     _professoresBloc.add(ProfessoresStartEvent());
 
-    _controllerPesquisa.addListener(() {
-      _professoresBloc.add(ProfessoresFiltreEvent(_controllerPesquisa.text,),);
-    },);
+    _controllerPesquisa.addListener(
+      () {
+        _professoresBloc.add(
+          ProfessoresFiltreEvent(
+            _controllerPesquisa.text,
+          ),
+        );
+      },
+    );
   }
 
   @override
@@ -51,11 +56,9 @@ class _ProfessoresScreenState extends State<ProfessoresScreen> {
                 title: Text("Professores"),
               ),
               body: _buildProfessores(),
-
             );
           },
-        )
-    );
+        ));
   }
 
   Widget _buildProfessores() {
@@ -90,8 +93,8 @@ class _ProfessoresScreenState extends State<ProfessoresScreen> {
         size: 15,
       ),
       onPressed: () {
-        WidgetsBinding.instance.addPostFrameCallback(
-                (_) => _controllerPesquisa.clear());
+        WidgetsBinding.instance
+            .addPostFrameCallback((_) => _controllerPesquisa.clear());
       },
     );
   }
