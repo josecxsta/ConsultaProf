@@ -46,7 +46,7 @@ class _RemoveAvaliacaoState extends State<RemoveAvaliacao> {
                 onPressed: () async {
                   var result = await _monteShowDialogConfirmacao(context);
                   if (result) {
-                    await AvaliacoesService().removeAvaliacao(
+                    await AvaliacoesService().denucieAvaliacao(
                         email.text, idAvaliacao);
                     Navigator.pop(context);
                   }
