@@ -134,10 +134,6 @@ algum erro no momento da avaliação do discente.
 
 #### RF08
 
-Como​ discente, desejo​ poder excluir a avaliação do docente.
-
-#### RF09
-
 Como discente, desejo escolher um nome/apelido no cadastro para não revelar minha
 identidade.
 
@@ -259,6 +255,9 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 | E6     | Design do Banco de Dados.       | 1      | RNF06    | 28/10/2019    |
 | E7     | Módulo para reportar avaliação.       | 2      | RF02    | 25/11/2019    |
 | E8     | Módulo preenchimento de avaliação.       | 2      | RF05, RF07    | 25/11/2019    |
+| E9     | Implementação da interface de preenchimento de avaliação.     | 2      | RNF02   | 25/11/2019    |
+| E10    | Implementação da interface de denúncia de avaliação.     | 2      | RNF02   | 25/11/2019    |
+| E11    | Implementação da interface listagem de professores e avaliações.     | 2      | RNF02   | 25/11/2019    |
 
 #### Subdivisão das tarefas para a segunda iteração:
 

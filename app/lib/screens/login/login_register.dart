@@ -65,14 +65,17 @@ import 'package:flutter_masked_text/flutter_masked_text.dart';
               child: RaisedButton(
                 child: Text("Cadastrar"),
                 color: Colors.blueAccent,
-                onPressed: () async {
-                  var result = await LoginService().registreLogin(
-                      usuario: usuario.text,
-                      senha: senha.text,
-                      matricula: matricula.text);
+                onPressed: () async {              
                   if (result.token.isNotEmpty) {
                     var result = await _monteShowDialogConfirmacao(context);
                     if (result) {
+                      await LoginService().registreLogin(
+                        apelido: usuario.text,
+                        senha: senha.text,
+                        matricula: matricula.text,
+                        email: email.text,
+                        codigoVerificacao: codigoVerificacao.text);
+                            
                       Navigator.pop(context);
                     }
                   }

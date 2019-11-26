@@ -28,13 +28,18 @@ class LoginService {
     throw Exception("Login ou senha inválido");
   }
 
-  Future<LoginModel> registreLogin({
-    String usuario,
-    String senha,
-    String matricula,
-  }) async {
-    return LoginModel(
-        user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
+  Future registreLogin(String apelido, String senha, String matricula, String email, String codigoVerificacao) async {
+    var url = ApiUrlService().getApi('discentes');
+    await ApiService().post(
+      url,
+      body: {
+        "apelido": "${apelido}",
+        "senha": "${senha}",
+        "matricula": "${matricula}"a,
+        "email": "${email}",
+        "codigoVerificacao": "${codigoVerificacao}",
+      },
+    );
   }
 
   LoginModel _mapeieLoginModel(Map map) {
