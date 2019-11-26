@@ -51,7 +51,7 @@ class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
                       avaliacoes[index]?.notaDidatica +
                       avaliacoes[index]?.notaDisponibilidade) / 4;
                   return Container(
-                    height: 70,
+                    height: 90,
                     alignment: Alignment.bottomLeft,
                     padding: const EdgeInsets.all(5.0),
                     child: RaisedButton(
