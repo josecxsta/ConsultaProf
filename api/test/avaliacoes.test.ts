@@ -1,5 +1,5 @@
 // @ts-ignore
-import request from "supertest";
+const request =  require("supertest");
 import app from "../src/app";
 
 describe("Avaliações do Docente 1", () => {
