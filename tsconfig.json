@@ -7,16 +7,16 @@
         "noImplicitAny": false,
         "moduleResolution": "node",
         "sourceMap": true,
-        "outDir": "dist",
+        "outDir": "api/dist",
         "baseUrl": ".",
         "paths": {
             "*": [
                 "node_modules/*",
-                "src/types/*"
+                "api/src/types/*"
             ]
         }
     },
     "include": [
-        "src/**/*"
+        "api/src/**/*"
     ]
 }
