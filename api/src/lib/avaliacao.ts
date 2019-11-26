@@ -24,7 +24,7 @@ export default class Avaliacao {
      */
     static async getAll(docente) {
         let avaliacoes;
-        await AvaliacaoDao.findOne({ where: {docente: docente} })
+        await AvaliacaoDao.findAll({ where: {docente: docente} })
             .then(result => {
                 avaliacoes = result;
             });
