@@ -8,7 +8,6 @@ import 'package:consulta_prof/models/user_model.dart';
 import 'package:consulta_prof/services/api_service.dart';
 import 'package:consulta_prof/services/api_url_service.dart';
 
-
 class AvaliacoesService {
   Future<List<AvaliacaoModel>> obtenhaAvaliacoes(int idProfessor) async {
     var url = ApiUrlService().getApi('avaliacoes/$idProfessor');
@@ -16,6 +15,23 @@ class AvaliacoesService {
 
     var map = apiResponse as List;
     return mapeieDocentes(map);
+  }
+
+  Future adicioneAvaliacao(AvaliacaoModel avaliacao) async {
+    var url = ApiUrlService().getApi('avaliacoes');
+    var apiResponse = await ApiService().post(
+      url,
+      body: {
+        "docente": avaliacao.idDocente,
+        "didatica": avaliacao.notaDidatica,
+        "coerencia": avaliacao.notaCoerencia,
+        "pontualidade": avaliacao.notaPontualidade,
+        "disponivel": avaliacao.notaDisponibilidade,
+        "comentario": avaliacao.comentario,
+        "tituloComentario": avaliacao.tituloComentario,
+        "cursariaNovamente": avaliacao.cursariaNovamente,
+      },
+    );
   }
 
   List<AvaliacaoModel> mapeieDocentes(List data) {
@@ -32,9 +48,8 @@ class AvaliacoesService {
         comentario: map["comentario"],
         tituloComentario: map["tituloComentario"],
         cursariaNovamente: map["cursariaNovamente"] as bool,
-       );
+      );
       return docente;
     }).toList(growable: false);
   }
-
 }

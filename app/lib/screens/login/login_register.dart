@@ -21,7 +21,6 @@ class _LoginRegisterState extends State<LoginRegister> {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueAccent,
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -66,7 +65,7 @@ class _LoginRegisterState extends State<LoginRegister> {
               padding: const EdgeInsets.symmetric(horizontal: 70),
               child: RaisedButton(
                 child: Text("Cadastrar"),
-                color: Colors.cyan,
+                color: Colors.blueAccent,
                 onPressed: () async {
                   var result = await LoginService().registreLogin(
                       usuario: usuario.text,

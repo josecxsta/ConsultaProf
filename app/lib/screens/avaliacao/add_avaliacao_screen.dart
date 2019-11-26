@@ -1,3 +1,5 @@
+import 'package:consulta_prof/models/avaliacao_model.dart';
+import 'package:consulta_prof/services/avaliacoes_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating/flutter_rating.dart';
 import 'package:grouped_buttons/grouped_buttons.dart';
@@ -17,14 +19,13 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
   double notaDisponibilidade = 0;
   double notaPontualidade = 0;
   int starCount = 5;
-  bool _picked = true;
-
+  bool cursariaNovamente = true;
+  var comentario = TextEditingController();
+  var cursariaNomamente = TextEditingController();
+  var tituloComentario = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
-    var comentario = TextEditingController();
-    var cursariaNomamente = TextEditingController();
-    var tituloComentario = TextEditingController();
     final idProfesor = this.widget.idProfesssor;
 
     return Scaffold(
@@ -41,22 +42,24 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
               controller: tituloComentario,
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: "Comentários"),
+              decoration: InputDecoration(labelText: "Comentário Detalhado"),
               controller: comentario,
             ),
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
             Text("Cursaria Novamente?"),
             RadioButtonGroup(
               orientation: GroupedButtonsOrientation.HORIZONTAL,
               margin: const EdgeInsets.only(left: 12.0),
               onSelected: (String selected) => setState(() {
-                _picked = selected == "Sim" ? true : false;
+                cursariaNovamente = selected == "Sim" ? true : false;
               }),
               labels: <String>[
                 "Sim",
                 "Não",
               ],
-              picked: _picked ? "Sim": "Não",
+              picked: cursariaNovamente ? "Sim" : "Não",
               itemBuilder: (Radio rb, Text txt, int i) {
                 return Row(
                   children: <Widget>[
@@ -128,7 +131,13 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
               padding: const EdgeInsets.symmetric(horizontal: 50),
               width: 70,
               child: FlatButton(
-                onPressed: () {},
+                onPressed: () async {
+                  var result = await _monteShowDialogConfirmacao(context);
+                  if (result) {
+                    await _adicionaAvaliacao();
+                    Navigator.pop(context);
+                  }
+                },
                 color: Colors.blue,
                 child: Text(
                   "Confirmar",
@@ -139,6 +148,49 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
           ],
         ),
       ),
+    );
+  }
+
+  Future _adicionaAvaliacao() async {
+    var avaliacao = AvaliacaoModel(
+      cursariaNovamente: cursariaNovamente,
+      tituloComentario: tituloComentario.text,
+      comentario: comentario.text,
+      notaPontualidade: notaPontualidade.toInt(),
+      notaCoerencia: notaCoerencia.toInt(),
+      notaDidatica: notaDidatica.toInt(),
+      notaDisponibilidade: notaDisponibilidade.toInt(),
+      idDocente: this.widget.idProfesssor,
+    );
+
+    await AvaliacoesService().adicioneAvaliacao(avaliacao);
+  }
+
+  Future _monteShowDialogConfirmacao(BuildContext context) {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text("Confirmação"),
+          content: Text(
+            "Você deseja adicionar essa avalição para o professor?",
+          ),
+          actions: [
+            FlatButton(
+              child: Text("NÃO"),
+              onPressed: () {
+                Navigator.pop(context, false);
+              },
+            ),
+            FlatButton(
+              child: Text("SIM"),
+              onPressed: () {
+                Navigator.pop(context, true);
+              },
+            ),
+          ],
+        );
+      },
     );
   }
 }

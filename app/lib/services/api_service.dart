@@ -18,16 +18,15 @@ class ApiService {
   }
 
 
-  Future<ApiResponse> post(
+  Future<dynamic> post(
     url, {
     Map<String, String> headers,
     body,
   }) async {
     return Dio(_crieOpcoes(headers))
-        .post(url, data: body)
+        .post(url)
         .then((response) {
       if (response.statusCode != 200) _handleResponseError(url, response);
-      return _convert(response);
     });
   }
 

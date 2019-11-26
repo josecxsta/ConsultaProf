@@ -24,3 +24,4 @@ class ApplicationAlteracaoSenhaEvent extends ApplicationEvent {
 
   ApplicationAlteracaoSenhaEvent({@required this.novoToken});
 }
+

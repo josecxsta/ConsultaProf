@@ -80,6 +80,7 @@ class _LoginFormState extends State<LoginForm> {
             TextFormField(
               keyboardType: TextInputType.emailAddress,
               controller: _usuarioController,
+              style: TextStyle(color: Colors.black87),
               decoration: InputDecoration(
                 contentPadding: EdgeInsets.all(1),
                 labelText: "Email or Username",
@@ -96,6 +97,7 @@ class _LoginFormState extends State<LoginForm> {
             TextField(
               controller: _senhaController,
               keyboardType: TextInputType.text,
+              style: TextStyle(color: Colors.black87),
               obscureText: true,
               decoration: InputDecoration(
                 contentPadding: EdgeInsets.all(1),
