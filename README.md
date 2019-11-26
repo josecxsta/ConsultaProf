@@ -217,8 +217,14 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 	- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.
 	- Tem seu nome/apelido e senha usada.
 
+|   Esquerda   |  Centralizado  |    Direita    |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 #### Diagrama de classes:
 ![Diagrama de classes](diagrams/png/classDiagram.png)
 
 #### Diagrama de casos de uso:
 ![Diagrama de casos de uso](diagrams/png/useCaseDiagram.png)
+
