@@ -12,7 +12,6 @@ class DenunciaDao extends Model {
 }
 
 DenunciaDao.init({
-    // attributes
     avaliacao: {
         type: Sequelize.INTEGER,
     },
@@ -30,8 +29,7 @@ DenunciaDao.init({
     }
 }, {
     sequelize,
-    modelName: "denuncia"
-    // options
+    modelName: "denuncias"
 });
 
 export default DenunciaDao;

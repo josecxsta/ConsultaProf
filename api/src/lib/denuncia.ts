@@ -1,3 +1,4 @@
+import DenunciaDao from "../dao/denuncia-dao";
 
 /**
  * @class Denuncia
@@ -11,7 +12,29 @@ export default class Denuncia {
     dataCriacao: Date;
     dataAtualizacao: Date;
 
-    constructor() {
+    /**
+     * Construtor privado para o método factory.
+     * TODO: método factory da classe.
+     */
+    private constructor() {
+    }
+
+    /**
+     * Insere uma denuncia em uma avaliacao
+     * @param {number} avaliacao
+     * @param {string} number 
+     * @returns {object} response
+     */
+    static async insert(avaliacao: number, email: string) {
+        let response;
+        await DenunciaDao.create({
+            avaliacao: avaliacao,
+            email: email
+        })
+        .then(result => {
+            response = result;
+        });
+        return response;
     }
 
 }
