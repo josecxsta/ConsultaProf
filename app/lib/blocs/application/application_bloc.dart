@@ -1,12 +1,11 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:consulta_prof/functions/error_functions.dart';
+import 'package:consulta_prof/models/repositories/token_repository.dart';
+import 'package:consulta_prof/models/repositories/ultilidades_repository.dart';
+import 'package:consulta_prof/models/repositories/user_repository.dart';
 import 'package:consulta_prof/models/session_model.dart';
 import 'package:consulta_prof/models/user_model.dart';
-import 'package:consulta_prof/repositories/token_repository.dart';
-import 'package:consulta_prof/repositories/ultilidades_repository.dart';
-import 'package:consulta_prof/repositories/user_repository.dart';
 import 'package:consulta_prof/services/docentes_service.dart';
 import 'package:consulta_prof/services/token_service.dart';
 

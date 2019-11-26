@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:consulta_prof/repositories/user_repository.dart';
+import 'package:consulta_prof/models/repositories/user_repository.dart';
 import 'package:consulta_prof/services/login_service.dart';
 
 import 'login_event.dart';

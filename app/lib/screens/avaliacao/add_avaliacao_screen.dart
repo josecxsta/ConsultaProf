@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating/flutter_rating.dart';
+import 'package:grouped_buttons/grouped_buttons.dart';
 
 class AddAvaliacao extends StatefulWidget {
   final int idProfesssor;
@@ -13,9 +14,11 @@ class AddAvaliacao extends StatefulWidget {
 class _AddAvaliacaoState extends State<AddAvaliacao> {
   double notaCoerencia = 0;
   double notaDidatica = 0;
-  double notaGenteBoa = 0;
+  double notaDisponibilidade = 0;
   double notaPontualidade = 0;
   int starCount = 5;
+  bool _picked = true;
+
 
   @override
   Widget build(BuildContext context) {
@@ -38,17 +41,35 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
               controller: tituloComentario,
             ),
             TextFormField(
-              decoration: InputDecoration(labelText: "Cursaria novamente?"),
-              controller: cursariaNomamente,
-            ),
-            TextFormField(
               decoration: InputDecoration(labelText: "Comentários"),
               controller: comentario,
+            ),
+            SizedBox(height: 10,),
+            Text("Cursaria Novamente?"),
+            RadioButtonGroup(
+              orientation: GroupedButtonsOrientation.HORIZONTAL,
+              margin: const EdgeInsets.only(left: 12.0),
+              onSelected: (String selected) => setState(() {
+                _picked = selected == "Sim" ? true : false;
+              }),
+              labels: <String>[
+                "Sim",
+                "Não",
+              ],
+              picked: _picked ? "Sim": "Não",
+              itemBuilder: (Radio rb, Text txt, int i) {
+                return Row(
+                  children: <Widget>[
+                    rb,
+                    txt,
+                  ],
+                );
+              },
             ),
             SizedBox(
               height: 10,
             ),
-            Text("Nota Coerênica"),
+            Text("Coerênica na explicação das matérias"),
             StarRating(
               size: 25.0,
               rating: notaCoerencia,
@@ -61,7 +82,7 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
                 },
               ),
             ),
-            Text("Nota Didática"),
+            Text("Didática"),
             StarRating(
               size: 25.0,
               rating: notaDidatica,
@@ -74,20 +95,20 @@ class _AddAvaliacaoState extends State<AddAvaliacao> {
                 },
               ),
             ),
-            Text("Nota Gente Boa"),
+            Text("Disponibilidade fora da sala de aula"),
             StarRating(
               size: 25.0,
-              rating: notaGenteBoa,
+              rating: notaDisponibilidade,
               color: Colors.orange,
               borderColor: Colors.grey,
               starCount: starCount,
               onRatingChanged: (rating) => setState(
                 () {
-                  this.notaGenteBoa = rating;
+                  this.notaDisponibilidade = rating;
                 },
               ),
             ),
-            Text("Nota Pontualidade"),
+            Text("Pontualidade"),
             StarRating(
               size: 25.0,
               rating: notaPontualidade,

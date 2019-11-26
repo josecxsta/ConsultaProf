@@ -18,7 +18,6 @@ class _ProfessoresScreenState extends State<ProfessoresScreen> {
 
   @override
   void initState() {
-    super.initState();
     _professoresBloc = ProfessoresBloc();
     _professoresBloc.add(ProfessoresStartEvent());
 
@@ -31,6 +30,7 @@ class _ProfessoresScreenState extends State<ProfessoresScreen> {
         );
       },
     );
+    super.initState();
   }
 
   @override
@@ -46,14 +46,16 @@ class _ProfessoresScreenState extends State<ProfessoresScreen> {
         child: BlocBuilder<ProfessoresBloc, ProfessoresState>(
           bloc: _professoresBloc,
           builder: (context, state) {
-            if (state.isInitializing) {
+            if (state.isInitializing == null || state.isInitializing) {
               return CarregandoWidget();
             }
 
             return Scaffold(
               appBar: AppBar(
-                titleSpacing: 0,
-                title: Text("Professores"),
+                title: Text(
+                  "Professores",
+                  textAlign: TextAlign.center,
+                ),
               ),
               body: _buildProfessores(),
             );

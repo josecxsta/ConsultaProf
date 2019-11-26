@@ -32,6 +32,7 @@ dependencies:
   test: 1.6.3
   dio: 2.1.16
   flutter_rating: ^0.0.2
+  grouped_buttons: ^1.0.4
 
 
 

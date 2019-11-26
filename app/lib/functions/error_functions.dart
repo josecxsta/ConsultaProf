@@ -2,11 +2,11 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:catcher/catcher_plugin.dart';
-import 'package:consulta_prof/exceptions/api_exception.dart';
 import 'package:consulta_prof/models/session_model.dart';
-import 'package:consulta_prof/services/api_url_service.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+
+import 'exceptions/api_exception.dart';
 
 var localization = LocalizationOptions.buildDefaultPortugueseOptions();
 
