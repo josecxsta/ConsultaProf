@@ -1,4 +1,5 @@
 import DiscenteDao from "../dao/discente-dao";
+import Crypto from "crypto-js";
 
 /**
 * @class Discente
@@ -56,6 +57,7 @@ export default class Discente {
      * @param {object} discente
      */
     static async insert(discente) {
+        discente.senha = Crypto.SHA256(discente.senha, discente.email);
         return await DiscenteDao.create(discente);
     }
 
