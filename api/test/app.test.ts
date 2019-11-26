@@ -28,4 +28,13 @@ describe("Teste requisição a raíz", () => {
         });
     });
 
+
+    describe("GET /docentes/1", () => {
+        it("deve retornar 200", () => {
+            return request(app)
+                .get("/docentes/1")
+                .expect(200);
+        });
+    });
+
 });
