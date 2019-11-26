@@ -26,7 +26,7 @@ avaliacaoRoute.route("/")
         });
 
 avaliacaoRoute.param("id", function (req: any, res, next, id) {
-    req.discente = {
+    req.docente = {
         id: id
     };
     next();
@@ -42,7 +42,7 @@ avaliacaoRoute.route("/:id")
      */
         async function (req: any, res) {
             try {
-                const avaliacoes = await Avaliacao.getAll(req.discente.id);
+                const avaliacoes = await Avaliacao.getAll(req.docente.id);
                 res.send(avaliacoes);
             } catch (err) {
                 console.error(err);
