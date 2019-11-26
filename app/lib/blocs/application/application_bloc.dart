@@ -7,6 +7,7 @@ import 'package:consulta_prof/models/user_model.dart';
 import 'package:consulta_prof/repositories/token_repository.dart';
 import 'package:consulta_prof/repositories/ultilidades_repository.dart';
 import 'package:consulta_prof/repositories/user_repository.dart';
+import 'package:consulta_prof/services/docentes_service.dart';
 import 'package:consulta_prof/services/token_service.dart';
 
 import 'application_event.dart';
@@ -52,33 +53,29 @@ class ApplicationBloc extends Bloc<ApplicationEvent, ApplicationState> {
   }
 
   Stream<ApplicationState> _inicializeAplicacao(String token) async* {
-    var user = await UserRepository().load();
-
-    if (user == null) {
-      yield ApplicationState.unauthenticated();
-      return;
-    }
 
     var session = SessionModel(
       tokenUsuario: token,
       user: UserModel(nome: "Gustavo Henrique", id: 1),
     );
+    ApplicationState.unauthenticated();
 
-
-    try {
-      await _carregueDados(session);
-    } catch (error, stackTrace) {
-      yield ApplicationState.unauthenticated();
-      if (!ehErroDeTimeoutNaConexao(error)) {
-        reportError(error, stackTrace);
-        return;
-      }
-    }
+//    try {
+//      await _carregueDados(session);
+//    } catch (error, stackTrace) {
+//      yield ApplicationState.unauthenticated();
+//      if (!ehErroDeTimeoutNaConexao(error)) {
+//        reportError(error, stackTrace);
+//        return;
+//      }
+//    }
 
     yield ApplicationState.authenticated(
-      session: session,
     );
+    return;
   }
 
-  Future _carregueDados(SessionModel session) async {}
+  Future _carregueDados(SessionModel session) async {
+    var docentes = await DocenteService().obtenhaDocentes();
+  }
 }

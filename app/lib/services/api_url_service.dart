@@ -2,7 +2,7 @@
 class ApiUrlService {
   final String _ipAddressDev = '192.168.1.240';
   String get _urlApi {
-    return "http://$_ipAddressDev/ConsultaProfApi/";
+    return "http://consulta-prof.herokuapp.com/";
   }
 
   String concat(String urlBase, String url) {

@@ -1,6 +1,7 @@
 import 'package:consulta_prof/blocs/avaliacoes/avaliacoes_bloc.dart';
 import 'package:consulta_prof/blocs/avaliacoes/avaliacoes_event.dart';
 import 'package:consulta_prof/blocs/avaliacoes/avaliacoes_state.dart';
+import 'package:consulta_prof/screens/avaliacao/add_avaliacao_screen.dart';
 import 'package:consulta_prof/screens/carregando_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -35,6 +36,7 @@ class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
             return CarregandoWidget();
           }
           var avaliacoes = state.avaliacoes;
+          var idProfessor = avaliacoes.first.idProfesssor;
           return Scaffold(
             appBar: AppBar(
               title: Text("Avaliações"),
@@ -43,23 +45,46 @@ class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
               child: ListView.builder(
                 itemCount: avaliacoes.length,
                 itemBuilder: (context, index) {
-                  return Padding(
+                  return Container(
+                    height: 90,
                     padding: const EdgeInsets.all(8.0),
                     child: Card(
-                      child: Row(
-                        children: <Widget>[
-                          Text(avaliacoes[index].tituloComentario),
-                          SizedBox(
-                            width: 5,
-                          ),
-                          Text(
-                            avaliacoes[index].mediasNotas.toString(),
-                          ),
-                        ],
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: <Widget>[
+                            Text(
+                              avaliacoes[index].tituloComentario,
+                              style: TextStyle(fontSize: 20),
+                            ),
+                            SizedBox(
+                              width: 5,
+                            ),
+                            Text(
+                              avaliacoes[index].mediasNotas.toString(),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   );
                 },
+              ),
+            ),
+            floatingActionButton: Container(
+              decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
+              child: IconButton(
+                onPressed: (){
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => AddAvaliacao(idProfessor)),
+                  );
+                },
+                icon: Icon(Icons.add),
+                color: Colors.white,
               ),
             ),
           );

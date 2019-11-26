@@ -1,4 +1,4 @@
-class ProfessorModel {
+class DocenteModel {
   final int id;
   final String nome;
   final double mediaDidatica;
@@ -7,7 +7,7 @@ class ProfessorModel {
   final int mediaGenteBoa;
   final int mediaCursariaNovamente;
 
-  ProfessorModel({
+  DocenteModel({
     this.mediaDidatica,
     this.mediaCoerencia,
     this.mediaPontualidade,
