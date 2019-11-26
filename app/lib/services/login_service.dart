@@ -21,11 +21,20 @@ class LoginService {
 //    var map = apiResponse.data as Map;
 //    trateApiException(map);
 //    return _mapeieLoginModel(map);
-  return LoginModel(user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
+    if (usuario == "gustavo" && senha == "123456") {
+      return LoginModel(
+          user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
+    }
+    throw Exception("Login ou senha inválido");
   }
 
-  Future<LoginModel> registreLogin({String usuario, String senha, String matricula, }) async {
-    return LoginModel(user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
+  Future<LoginModel> registreLogin({
+    String usuario,
+    String senha,
+    String matricula,
+  }) async {
+    return LoginModel(
+        user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
   }
 
   LoginModel _mapeieLoginModel(Map map) {
@@ -37,5 +46,4 @@ class LoginService {
       ),
     );
   }
-
 }

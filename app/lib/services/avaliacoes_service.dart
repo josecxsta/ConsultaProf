@@ -15,7 +15,7 @@ class AvaliacoesService {
 
   Future adicioneAvaliacao(AvaliacaoModel avaliacao) async {
     var url = ApiUrlService().getApi('avaliacoes');
-    var apiResponse = await ApiService().post(
+    await ApiService().post(
       url,
       body: {
         "discente": 1,
@@ -33,7 +33,7 @@ class AvaliacoesService {
 
   Future removeAvaliacao(String email, int idAvaliacao) async {
     var url = ApiUrlService().getApi('denuncias/$idAvaliacao');
-    var apiResponse = await ApiService().post(
+    await ApiService().post(
       url,
       body: {
         "email": "$email",
