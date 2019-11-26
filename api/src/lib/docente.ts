@@ -5,14 +5,11 @@ import DocenteDao from "../dao/docente-dao";
  * @author José da Costa <josecxsta@gmail.com>
  */
 export default class Docente {
-    id: number;
-    nome: string;
-    unidadeAcademica: number;
-    dataCriacao: Date;
-    dataAtualizacao: Date;
-
-    constructor() {
-    }
+    id;
+    nome;
+    unidadeAcademica;
+    dataCriacao;
+    dataAtualizacao;
 
     /**
      * Obtém todos os docentes do Banco de dados.

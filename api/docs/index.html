@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><p>## 👨‍🏫 ConsultaProf</p>
+<p>Plataforma para que alunos possam avaliar e consultar as avaliações disponíveis de docentes de uma universidade/unidade acadêmica.</p>
+<h3>API</h3>
+<p><a href="https://travis-ci.com/josecxsta/ConsultaProf"><img src="https://travis-ci.com/josecxsta/ConsultaProf.svg?branch=master" alt="Build Status"></a></p>
+<h3>App</h3>
+<p><a href="https://github.com/flutterchina/dio"><img src="https://img.shields.io/badge/platform-flutter%7Cflutter%20web%7Cdart%20vm-ff69b4.svg?style=flat-square" alt="support"></a><br>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a></p>
+<h3>Identificação dos componentes do grupo</h3>
+<ul>
+<li>Gustavo Henrique Rodrigues Santos Silva</li>
+<li>João Carlos Fonseca</li>
+<li>José da Costa Nunes Neto</li>
+</ul>
+<blockquote>
+<p><strong>Problema</strong>: Os alunos do Instituto de Informática não conseguem obter informações, antes da<br>
+matrícula, acerca dos docentes das disciplinas que irão cursar, já que a avaliação<br>
+institucional existente, apesar de ser realizada pelos alunos, tem seus resultados<br>
+destinados aos docentes. Com isso, pouca ou quase nenhuma informação acerca da<br>
+avaliação do docente é disponibilizada aos discentes: apenas a média geral do docente<br>
+e o desvio padrão dessa média. Dados que são demasiadamente abstratos e que<br>
+fornecem praticamente nenhuma informação acerca do docente em questão. Isso<br>
+dificulta a escolha das disciplinas pelo discente.</p>
+</blockquote>
+<blockquote>
+<p><strong>Objetivo</strong>: O objetivo é criar uma plataforma em que os alunos possam avaliar e consultar as<br>
+avaliações disponíveis de docentes de uma universidade/unidade acadêmica.</p>
+</blockquote>
+<h3>Identificação dos componentes do sistema</h3>
+<ul>
+<li>Portal UFGNet</li>
+<li>Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)</li>
+</ul>
+<h3>Identificação dos usuários finais</h3>
+<ul>
+<li>Discentes do Instituto de Informática da UFG. Eles irão avaliar e consultar<br>
+avaliações anteriores dos discentes.</li>
+<li>Docentes do Instituto de Informática da UFG.</li>
+<li>Moderador: responsável pela fiscalização dos comentários e por atender<br>
+pedidos de exclusão de avaliações.</li>
+</ul>
+<h3>Fontes de requisitos</h3>
+<ul>
+<li>Discentes: questionário online (visa identificar pontos essenciais que devem<br>
+constar na avaliação do docente).</li>
+<li>Docentes: entrevistas (visa identificar restrições que a avaliação deve obedecer).</li>
+<li>Comissão de avaliação institucional da UFG: entrevista (podem nos auxiliar com<br>
+a visão que possuem sobre esse tipo de avaliação).</li>
+</ul>
+<h3>Requisitos funcionais</h3>
+<h4>RF01</h4>
+<p>Como discente, desejo me cadastrar para que possa acessar o<br>
+sistema e realizar avaliações. Os dados necessários para a cadastro são: matrícula, apelido, email e senha.</p>
+<h4>RF02</h4>
+<p>Como docente, desejo requisitar um pedido de exclusão da avaliação para que não<br>
+tenha comentários que ofendam o docente ou não sejam verdade. Esse pedido será<br>
+avaliado pelo moderador e o docente será notificado através do e-mail.</p>
+<h4>RF03</h4>
+<p>Como sistema ConsultaProf, desejo importar do Portal UFGNet os dados de<br>
+professores para que possa disponibilizar uma listagem dos professores para que os<br>
+docentes escolham quem irão avaliar.</p>
+<h4>RF04</h4>
+<p>Como sistema ConsultaProf, desejo importar do SIGAA os dados dos alunos do INF<br>
+para que possa validar o login do discente.</p>
+<h4>RF05</h4>
+<p>Como discente, desejo avaliar o docente para que tenha conteúdo onde os alunos<br>
+possam consultar. Os dados relativos à disciplina avaliada são:</p>
+<ul>
+<li>Nome;</li>
+<li>Código;</li>
+<li>Ano e semestre que foi ministrada;</li>
+<li>Horário.</li>
+</ul>
+<p>A avaliação do docente correspondem a notas (no intervalo de 1 a 5) relativas aos<br>
+seguintes critérios:</p>
+<ul>
+<li>Didática;</li>
+<li>Coerência das avaliações;</li>
+<li>Pontualidade;</li>
+<li>Relacionamento com o aluno.</li>
+</ul>
+<p>A avaliação contém também o critério “Cursaria alguma disciplina com o docente<br>
+novamente?”, no qual a resposta pode ser “Sim” ou “Não”. Por fim, o discente pode<br>
+complementar sua avaliação adicionando um comentário e um título para o comentário.</p>
+<h4>RF06</h4>
+<p>Como usuário, desejo buscar o docente pelo nome para que seja mais fácil de<br>
+encontrá-lo.</p>
+<h4>RF07</h4>
+<p>Como discente, desejo poder editar a avaliação do docente para que possa corrigir<br>
+algum erro no momento da avaliação do discente.</p>
+<h4>RF08</h4>
+<p>Como​ discente, desejo​ poder excluir a avaliação do docente.</p>
+<h4>RF09</h4>
+<p>Como discente, desejo escolher um nome/apelido no cadastro para não revelar minha<br>
+identidade.</p>
+<h3>Requisitos não-funcionais</h3>
+<h4>RNF01</h4>
+<p>O sistema deve ser acessível através da plataforma móvel Android.</p>
+<h4>RNF02</h4>
+<p>As interfaces devem ser intuitivas, isto é, o usuário saberá usá-lo sem ler um manual<br>
+ou qualquer tipo de treinamento, visto que o sistema será usado como entretenimento<br>
+por usuários heterogêneos.</p>
+<h4>RNF03</h4>
+<p>O sistema utilizará a versão 2.5 da linguagem Dart para o cliente mobile e TypeScript<br>
+rodando no NodeJS para o servidor. Essas escolhas foram feitas baseadas na fácil<br>
+curva de aprendizagem com essas linguagens e facilidade que existe para se trabalhar<br>
+com web service com NodeJS.</p>
+<h4>RNF04</h4>
+<p>A IDE utilizada para o desenvolvimento do cliente mobile será Intellij IDEA, utilizando a tecnologia Flutter.</p>
+<h4>RNF05</h4>
+<p>A IDE utilizada para o desenvolvimento do servidor será Microsoft Visual Studio Code,<br>
+usando TypeScript.</p>
+<h4>RNF06</h4>
+<p>O SGDB a ser utilizado será o MySQL. Essa escolha foi feita porque essa tecnologia<br>
+tem uma boa performance e é altamente escalável.</p>
+<h4>RNF07</h4>
+<p>O versionamento do projeto deve ser realizado pelo GitHub.</p>
+<h4>RNF08</h4>
+<p>Os testes do projeto devem ser realizados pela integração do Travis CI ao GitHub.</p>
+<h3>Diagrama de casos de uso:</h3>
+<h3>Casos de usos detalhados</h3>
+<h4>Caso de uso 01:</h4>
+<pre><code>Nome: Avaliar docente.
+Ator principal​: Discente.
+Interessados e interesses​: Discente, Moderador.
+
+Pré-condições​:
+
+- Discente está autenticado.
+- Docente está registrado no sistema.
+
+Pós-condições (garantia de sucesso):
+
+- Avaliação realizada e submetida ao moderador,
+quem irá autorizar a publicação da avaliação.
+
+Cenário de sucesso principal:
+
+- Discente acessa a página inicial;
+- Procura pelo docente e acessa sua página;
+- Preenche os campos necessários e envia a sua avaliação.
+</code></pre>
+<h4>Caso de uso 02:</h4>
+<pre><code>Nome: Contestar avaliação.
+Ator principal​: Docente.
+Interessados e interesses​: Moderador.
+Pré-condições​:
+- Docente possui ao menos uma avaliação.
+Pós-condições (garantia de sucesso):
+- A contestação será enviada ao moderador e notificada ao discente.
+Cenário de sucesso principal​:
+- Lê as avaliações já publicadas;
+- Escolhe a avaliação a ser contestada;
+- Contesta avaliação;
+- Insere seu endereço de e-mail;
+- Recebe um aviso de que a contestação será analisada;
+- Avaliação ficará indisponível até a análise, caso seja aceita a contestação ela
+ficará permanentemente indisponível, caso contrário, voltará a ser disponível.
+- Discente recebe notificação sobre a contestação.
+</code></pre>
+<h4>Caso de uso 03:</h4>
+<pre><code>Nome: Cadastro de discente.
+Ator principal​: Discente.
+Interessados e interesses​: Discente.
+Pré-condições​:
+- Discente está matriculado na UFG.
+Pós-condições (garantia de sucesso): O discente será cadastrado e autenticado no
+app.
+Cenário de sucesso principal​:
+- Docente acessa de login.
+- Preenche os campos necessários: matrícula, data de emissão e identificador da declaração de vínculo.
+- Tem seu nome/apelido e senha usada.
+</code></pre>
+<h4>Diagrama de classes:</h4>
+<p><img src="diagrams/png/classDiagram.png" alt="Diagrama de classes"></p>
+<h4>Diagrama de casos de uso:</h4>
+<p><img src="diagrams/png/useCaseDiagram.png" alt="Diagrama de casos de uso"></p>
+<h4>Cronograma definido na primeira iteração:</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">ID</th>
+<th style="text-align:center">Assunto</th>
+<th style="text-align:center">Iteração</th>
+<th style="text-align:center">Fonte do requisito</th>
+<th style="text-align:right">Última atualização</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">E1</td>
+<td style="text-align:center">Implementação da interface do cadastro de discente.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RF01</td>
+<td style="text-align:right">22/10/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E2</td>
+<td style="text-align:center">Configuração do projeto no GitHub.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RNF07</td>
+<td style="text-align:right">28/10/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E3</td>
+<td style="text-align:center">Projeto da aplicação em Flutter.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RNF04</td>
+<td style="text-align:right">28/10/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E4</td>
+<td style="text-align:center">Projeto da API em TypeScript.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RNF03, RNF05</td>
+<td style="text-align:right">28/10/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E5</td>
+<td style="text-align:center">Configuração do Travis CI para API.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RNF08</td>
+<td style="text-align:right">28/10/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E6</td>
+<td style="text-align:center">Design do Banco de Dados.</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">RNF06</td>
+<td style="text-align:right">28/10/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E7</td>
+<td style="text-align:center">Módulo para reportar avaliação.</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">RF02</td>
+<td style="text-align:right">25/11/2019</td>
+</tr>
+<tr>
+<td style="text-align:left">E8</td>
+<td style="text-align:center">Módulo preenchimento de avaliação.</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">RF05, RF07</td>
+<td style="text-align:right">25/11/2019</td>
+</tr>
+</tbody>
+</table>
+<h4>Subdivisão das tarefas para a segunda iteração:</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">ID</th>
+<th style="text-align:center">Atividade</th>
+<th style="text-align:right">Responsáveis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:center">Artefatos implementados na 1a e 2a iterações: casos de uso, diagrama de classes e do repositório de dados (e.x. DER)</td>
+<td style="text-align:right">João Carlos</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:center">Camada de persistência de dados</td>
+<td style="text-align:right">João Carlos</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:center">Camada de lógica de negócio</td>
+<td style="text-align:right">José Costa</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:center">Camada de apresentação</td>
+<td style="text-align:right">Gustavo Henrique</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:center">Percentual de cobertura dos requisitos da 2a iteração</td>
+<td style="text-align:right">João Carlos</td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:center">Integração contínua (estilo Maven)</td>
+<td style="text-align:right">José Costa</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:center">Documentação do projeto (estilo Javadoc)</td>
+<td style="text-align:right">João Carlos</td>
+</tr>
+<tr>
+<td style="text-align:left">8</td>
+<td style="text-align:center">Relatório de análise estática de código do projeto</td>
+<td style="text-align:right">José Costa</td>
+</tr>
+</tbody>
+</table></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Autenticacao.html">Autenticacao</a></li><li><a href="Avaliacao.html">Avaliacao</a></li><li><a href="Denuncia.html">Denuncia</a></li><li><a href="Discente.html">Discente</a></li><li><a href="Disciplina.html">Disciplina</a></li><li><a href="Docente.html">Docente</a></li><li><a href="UnidadeAcademica.html">UnidadeAcademica</a></li></ul><h3>Global</h3><ul><li><a href="global.html#get">get</a></li><li><a href="global.html#getAll">getAll</a></li><li><a href="global.html#getByUnidadeAcademica">getByUnidadeAcademica</a></li><li><a href="global.html#insert">insert</a></li><li><a href="global.html#update">update</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Tue Nov 26 2019 19:51:36 GMT-0300 (Hora oficial do Brasil)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

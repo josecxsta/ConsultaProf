@@ -1,0 +1,28 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : true
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"./api/src/lib",
+		"destination"	:"./api/docs",
+		"tutorials"		:"",
+		"systemName"	: "ConsultaProf",
+		"footer"		: "",
+		"copyright"		: "ConsultaProf Copyright © 2019 Usuario.",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}

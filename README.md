@@ -1,18 +1,43 @@
-﻿## 👨‍🏫 ConsultaProf
+﻿# 👨‍🏫 ConsultaProf
 
 Plataforma para que alunos possam avaliar e consultar as avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
 
-### API
+## ConsultaProf NodeJS API
 
 [![Build Status](https://travis-ci.com/josecxsta/ConsultaProf.svg?branch=master)](https://travis-ci.com/josecxsta/ConsultaProf)
 
-### App
+### Tecnologia e ferramentas
+
+Este projeto de API conta com as seguintes tecnologias:
+- NodeJS (10.x), TypeScript (3.5) e Express.
+
+São utilizados para desenvolvimento as seguintes ferramentas:
+- ESLint (análise estática) e Jest (testes unitários).
+
+### Variáveis de ambiente
+
+Definir as seguintes variáveis de ambiente com as credenciais do banco de dados MySQL: `CP_DB_HOST`, `CP_DB_USER`, `CP_DB_PASS` e `CP_DB_NAME`.
+
+### Testes unitários
+
+Execute o comando `npm run test` para realização dos testes unitários com Jest.
+
+### Análise sintática
+
+Execute o comando `npm run lint` para a realização da análise sintática do código em TypeScript.
+
+### Documentação
+
+Execute o comando `npm run doc` para gerar a documentação referente a api em `api/docs`.
+
+
+## App
 
 [![support](https://img.shields.io/badge/platform-flutter%7Cflutter%20web%7Cdart%20vm-ff69b4.svg?style=flat-square)](https://github.com/flutterchina/dio)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
-### Identificação dos componentes do grupo
+## Identificação dos componentes do grupo
 
 - Gustavo Henrique Rodrigues Santos Silva
 - João Carlos Fonseca

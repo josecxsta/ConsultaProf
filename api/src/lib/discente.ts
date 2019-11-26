@@ -6,34 +6,36 @@ import Crypto from "crypto-js";
 * @author José da Costa <josecxsta@gmail.com>
 */
 export default class Discente {
-    id: number;
-    apelido: string;
-    email: string;
-    senha: string;
-    matricula: string;
-    codigoVerificacao: string;
-    dataEmissaoVerificacao: Date;
-    dataCriacao: Date;
-    dataAtualizacao: Date;
-
-    /**
-     * Construtor privado.
-     */
-    private constructor() {
-    }
+    id;
+    apelido;
+    email;
+    senha;
+    matricula;
+    codigoVerificacao;
+    dataEmissaoVerificacao;
+    dataCriacao;
+    dataAtualizacao;
 
     /**
      * Obtém discente pelo seu id
      * @param {number} id
      * @return {object} discente
      */
-    static async get(id: number) {
+    static async get(id) {
         let discente;
         DiscenteDao.findOne({ where: {id: id} })
             .then(result => {
                 discente = result;
             });
         return discente;
+    }
+
+    /**
+     * Atualiza determinado discente no banco de dados.
+     * @param {object} discente
+     */
+    static async update(discente) {
+        return await DiscenteDao.update(discente);
     }
 
     /**

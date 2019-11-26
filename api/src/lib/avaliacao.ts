@@ -5,17 +5,10 @@ import AvaliacaoDao from "../dao/avaliacao-dao";
  * @author José da Costa <josecxsta@gmail.com>
  */
 export default class Avaliacao {
-    id: number;
-    nome: string;
-    dataCriacao: Date;
-    dataAtualizacao: Date;
-
-    /**
-     * Construtor privado para utilizar no factory.
-     * TODO: Método factory
-     */
-    private constructor() {
-    }
+    id;
+    nome;
+    dataCriacao;
+    dataAtualizacao;
 
     /**
      * Obtém todas avaliações de um determinado docente.

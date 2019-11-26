@@ -6,17 +6,11 @@ import { response } from "express";
  * @author José da Costa <josecxsta@gmail.com>
  */
 export default class UnidadeAcademica {
-    id: number;
-    nome: string;
-    unidadeAcademica: number;
-    dataCriacao: Date;
-    dataAtualizacao: Date;
-
-    /**
-     * Construtor privado para ser utilizado no factory method.
-     */
-    private constructor() {
-    }
+    id;
+    nome;
+    unidadeAcademica;
+    dataCriacao;
+    dataAtualizacao;
 
     /**
      * Obtém todas as UnidadeAcademicas do Banco de dados.
@@ -36,7 +30,7 @@ export default class UnidadeAcademica {
 
     /**
      * Insere nova unidade acadêmica no banco de dados.
-     * @param {object} unidadeAcademica 
+     * @param {object} unidadeAcademica
      */
     static async insert(unidadeAcademica) {
         let response;
