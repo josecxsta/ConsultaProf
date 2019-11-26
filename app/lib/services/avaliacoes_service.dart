@@ -1,10 +1,6 @@
 import 'dart:async';
 
-import 'package:consulta_prof/functions/error_functions.dart';
 import 'package:consulta_prof/models/avaliacao_model.dart';
-import 'package:consulta_prof/models/docente_model.dart';
-import 'package:consulta_prof/models/login_model.dart';
-import 'package:consulta_prof/models/user_model.dart';
 import 'package:consulta_prof/services/api_service.dart';
 import 'package:consulta_prof/services/api_url_service.dart';
 
@@ -22,14 +18,25 @@ class AvaliacoesService {
     var apiResponse = await ApiService().post(
       url,
       body: {
+        "discente": 1,
         "docente": avaliacao.idDocente,
         "didatica": avaliacao.notaDidatica,
         "coerencia": avaliacao.notaCoerencia,
         "pontualidade": avaliacao.notaPontualidade,
         "disponivel": avaliacao.notaDisponibilidade,
-        "comentario": avaliacao.comentario,
-        "tituloComentario": avaliacao.tituloComentario,
+        "comentario": "${avaliacao.comentario}",
+        "tituloComentario": "${avaliacao.tituloComentario}",
         "cursariaNovamente": avaliacao.cursariaNovamente,
+      },
+    );
+  }
+
+  Future removeAvaliacao(String email, int idAvaliacao) async {
+    var url = ApiUrlService().getApi('denuncias/$idAvaliacao');
+    var apiResponse = await ApiService().post(
+      url,
+      body: {
+        "email": "$email",
       },
     );
   }

@@ -1,3 +1,4 @@
+import 'package:consulta_prof/services/avaliacoes_service.dart';
 import 'package:flutter/material.dart';
 
 class RemoveAvaliacao extends StatefulWidget {
@@ -15,6 +16,7 @@ class _RemoveAvaliacaoState extends State<RemoveAvaliacao> {
 
   @override
   Widget build(BuildContext context) {
+    var idAvaliacao = this.widget.idAvaliacao;
     return Scaffold(
       appBar: AppBar(
         title: Text("Denúncia"),
@@ -29,7 +31,7 @@ class _RemoveAvaliacaoState extends State<RemoveAvaliacao> {
               controller: email,
             ),
             TextFormField(
-              decoration: InputDecoration(hintText: "Motivo para a denúnica", ),
+              decoration: InputDecoration(hintText: "Motivo para a denúnica",),
               controller: motivo,
               maxLines: 5,
             ),
@@ -44,6 +46,8 @@ class _RemoveAvaliacaoState extends State<RemoveAvaliacao> {
                 onPressed: () async {
                   var result = await _monteShowDialogConfirmacao(context);
                   if (result) {
+                    await AvaliacoesService().removeAvaliacao(
+                        email.text, idAvaliacao);
                     Navigator.pop(context);
                   }
                 },
