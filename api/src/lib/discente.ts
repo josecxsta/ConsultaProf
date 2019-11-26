@@ -24,7 +24,7 @@ export default class Discente {
     /**
      * Obtém discente pelo seu id
      * @param {number} id
-     * @return {object} discente 
+     * @return {object} discente
      */
     static async get(id: number) {
         let discente;
@@ -44,16 +44,16 @@ export default class Discente {
         await DiscenteDao.findAll().then(result => {
             discentes = result;
         })
-            .catch(err => {
-                console.error(err);
-                discentes = [];
-            });
+        .catch(err => {
+            console.error(err);
+            discentes = [];
+        });
         return discentes;
     }
 
     /**
      * Insere discente no banco de dados
-     * @param {object} discente 
+     * @param {object} discente
      */
     static async insert(discente) {
         return await DiscenteDao.create(discente);

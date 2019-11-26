@@ -22,7 +22,7 @@ export default class Denuncia {
     /**
      * Insere uma denuncia em uma avaliacao
      * @param {number} avaliacao
-     * @param {string} number 
+     * @param {string} number
      * @returns {object} response
      */
     static async insert(avaliacao: number, email: string) {
