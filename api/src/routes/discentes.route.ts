@@ -11,33 +11,33 @@ discenteRoute.route("/")
      * @param req
      * @param res
      */
-    async function (req: any, res) {
-        try {
-            const discentes = await Discente.getAll();
-            res.send(discentes);
-        } catch (e) {
-            res.send({
-                mensagem: "Erro interno"
-            }).status(500);
-        }
-    })
+        async function (req: any, res) {
+            try {
+                const discentes = await Discente.getAll();
+                res.send(discentes);
+            } catch (e) {
+                res.send({
+                    mensagem: "Erro interno"
+                }).status(500);
+            }
+        })
     .post(
     /**
      * Insere novo discente.
      * @param req
      * @param res
      */
-    async function (req: any, res) {
-        const newDiscente = req.body;
-        try {
-            await Discente.insert(newDiscente);
-            res.send({
-                mensagem: "Discente criado com sucesso!"
-            });
-        } catch (e) {
-            res.send(e);
-        }
-    });
+        async function (req: any, res) {
+            const newDiscente = req.body;
+            try {
+                await Discente.insert(newDiscente);
+                res.send({
+                    mensagem: "Discente criado com sucesso!"
+                });
+            } catch (e) {
+                res.send(e);
+            }
+        });
 
 discenteRoute.param("id", function (req: any, res, next, id) {
     req.discente = {
@@ -53,9 +53,9 @@ discenteRoute.route("/:id")
      * @param req
      * @param res
      */
-    async function (req: any, res) {
-        await Discente.get(req.discente.id);
-    });
+        async function (req: any, res) {
+            await Discente.get(req.discente.id);
+        });
 
 
 export default discenteRoute;
