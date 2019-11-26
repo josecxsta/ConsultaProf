@@ -1,4 +1,3 @@
-import database from "../config/database";
 
 /**
  * @class Disciplina

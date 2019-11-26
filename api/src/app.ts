@@ -15,6 +15,7 @@ import discentes from "./routes/discentes.route";
 import docentes from "./routes/docentes.route";
 import avaliacoes from "./routes/avaliacoes.route";
 import denuncias from "./routes/denuncias.route";
+import unidadesAcademicas from "./routes/unidades-academicas.route";
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.use("/discentes/", discentes);
 app.use("/docentes/", docentes);
 app.use("/avaliacoes/", avaliacoes);
 app.use("/denuncias/", denuncias);
+app.use("/unidades-academicas/", unidadesAcademicas);
 
 const PORT = process.env.PORT || 8080;
 
