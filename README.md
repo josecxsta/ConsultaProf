@@ -223,7 +223,8 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 #### Diagrama de casos de uso:
 ![Diagrama de casos de uso](diagrams/png/useCaseDiagram.png)
 
-#### Cronograma:
+#### Cronograma para segunda entrega:
+<!--- 
 
 |   ID   |  Assunto  |    Iteração    |    Fonte do requisito    |    Última atualização    |
 | :---         |     :---:      |     :---:      |     :---:      |         ---: |
@@ -237,5 +238,17 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 | E8     | Módulo para reportar avaliação.       | 2      | RF02    | 25/11/2019    |
 | E9     | Módulo preenchimento de avaliação.       | 2      | RF05, RF07    | 25/11/2019    |
 
+-->
+
+|   ID   |  Atividade  |    Responsáveis    |
+| :---         |     :---:      |         ---: |
+| 1     | Artefatos implementados na 1a e 2a iterações: casos de uso, diagrama de classes e do repositório de dados (e.x. DER)    |  João Carlos  |
+| 2     | Camada de persistência de dados       | João Carlos |
+| 3     | Camada de lógica de negócio       | José Costa |
+| 4     | Camada de apresentação        | Gustavo Henrique |
+| 5     | Percentual de cobertura dos requisitos da 2a iteração      | João Carlos |
+| 6     | Integração contínua (estilo Maven)       | José Costa |
+| 7     | Documentação do projeto (estilo Javadoc) | João Carlos |
+| 8     | Relatório de análise estática de código do projeto       | José Costa |
 
 
