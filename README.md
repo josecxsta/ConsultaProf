@@ -108,7 +108,7 @@ encontrá-lo.
 Como discente, desejo poder editar a avaliação do docente para que possa corrigir
 algum erro no momento da avaliação do discente.
 
-#### RF07
+#### RF08
 
 Como​ discente, desejo​ poder excluir a avaliação do docente.
 
