@@ -15,3 +15,9 @@ node_modules/
 coverage/
 logs/
 dist/
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/ConsultaProf.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
