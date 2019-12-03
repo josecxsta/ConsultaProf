@@ -14,18 +14,18 @@ class UserRepository {
   }
 
 
-  Future<UserModel> load() async {
-    if (_cache != null) {
-      return _cache;
-    }
-
-    var fileName = await _getFileName();
-    var arquivo = File(fileName);
-    if (!arquivo.existsSync()) {
-      return null;
-    }
-    var content = arquivo.readAsStringSync();
-    var decoded = json.decode(content);
+  UserModel load()  {
+//    if (_cache != null) {
+//      return _cache;
+//    }
+//
+//    var fileName = await _getFileName();
+//    var arquivo = File(fileName);
+//    if (!arquivo.existsSync()) {
+//      return null;
+//    }
+//    var content = arquivo.readAsStringSync();
+//    var decoded = json.decode(content);
     return _cache;
   }
 

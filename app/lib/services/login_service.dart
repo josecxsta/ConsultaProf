@@ -23,11 +23,11 @@ class LoginService {
 //    return _mapeieLoginModel(map);
     if (usuario == "gustavo" && senha == "123456") {
       return LoginModel(
-          user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
+          user: UserModel(nome: "Gustavo Henrique", id: 2), token: "d4fgas");
     }
     if (usuario == "-1" && senha == "123456") {
       return LoginModel(
-          user: UserModel(nome: "Usuário Falso", id: 1), token: "-1");
+          user: UserModel(nome: "Usuário Falso", id: 0), token: "-1");
     }
     throw Exception("Login ou senha inválido");
   }

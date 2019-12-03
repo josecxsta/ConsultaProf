@@ -1,6 +1,8 @@
 import 'package:consulta_prof/blocs/avaliacoes/avaliacoes_bloc.dart';
 import 'package:consulta_prof/blocs/avaliacoes/avaliacoes_event.dart';
 import 'package:consulta_prof/blocs/avaliacoes/avaliacoes_state.dart';
+import 'package:consulta_prof/blocs/login/login_bloc.dart';
+import 'package:consulta_prof/models/repositories/user_repository.dart';
 import 'package:consulta_prof/screens/avaliacao/add_avaliacao_screen.dart';
 import 'package:consulta_prof/screens/avaliacao/avaliacao_screen.dart';
 import 'package:consulta_prof/screens/carregando_widget.dart';
@@ -17,6 +19,8 @@ class AvaliacoesScreen extends StatefulWidget {
 }
 
 class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
+  LoginBloc _bloc;
+
   AvaliacoesBloc _avaliacoesBloc;
 
   @override
@@ -91,21 +95,23 @@ class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
                 },
               ),
             ),
-            floatingActionButton: Container(
-              decoration:
-                  BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
-              child: IconButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => AddAvaliacao(idProfessor)),
-                  );
-                },
-                icon: Icon(Icons.add),
-                color: Colors.white,
-              ),
-            ),
+            floatingActionButton: UserRepository().load().id == 0
+                ? Container()
+                : Container(
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.blue),
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => AddAvaliacao(idProfessor)),
+                        );
+                      },
+                      icon: Icon(Icons.add),
+                      color: Colors.white,
+                    ),
+                  ),
           );
         },
       ),

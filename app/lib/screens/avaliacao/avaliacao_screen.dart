@@ -14,18 +14,7 @@ class AvaliacaoScreen extends StatefulWidget {
 }
 
 class _AvaliacaoScreenState extends State<AvaliacaoScreen> {
-  LoginBloc _bloc;
 
-  @override
-  void initState() {
-    _bloc = BlocProvider.of<LoginBloc>(context);
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -111,9 +100,8 @@ class _AvaliacaoScreenState extends State<AvaliacaoScreen> {
           ),
         ],
       ),
-      floatingActionButton: _bloc.state.login.token == '-1'
-          ? Container()
-          : Container(
+      floatingActionButton:
+           Container(
               decoration:
                   BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
               child: IconButton(
