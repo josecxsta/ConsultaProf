@@ -229,7 +229,7 @@ Os testes do projeto devem ser realizados pela integração do Travis CI ao GitH
 ![Diagrama de classes](diagrams/png/classDiagram.png)
 
 #### Diagrama de casos de uso:
-![Diagrama de casos de uso](diagrams/png/useCaseDiagram.png)
+![Diagrama de casos de uso](diagrams/png/usecaseDiagram.png)
 
 #### Cronograma definido na primeira iteração:
 
