@@ -1,6 +1,7 @@
 import 'package:consulta_prof/blocs/application/application_bloc.dart';
 import 'package:consulta_prof/blocs/application/application_event.dart';
 import 'package:consulta_prof/blocs/login/login_bloc.dart';
+import 'package:consulta_prof/blocs/login/login_event.dart';
 import 'package:consulta_prof/blocs/login/login_state.dart';
 import 'package:consulta_prof/screens/login/login_form.dart';
 import 'package:consulta_prof/screens/login/login_logo.dart';
@@ -56,35 +57,56 @@ class _LoginScreenState extends State<LoginScreen> {
           LoginLogo(),
           LoginForm(),
           Center(
-            child: Container(
-
-              child: Stack(
-                children: <Widget>[
-                  Column(
-                    children: <Widget>[],
+            child: RaisedButton(
+              color: Colors.transparent,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(90),
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => LoginRegister(),
                   ),
-                  RaisedButton(
-                    color: Colors.transparent,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(90)),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => LoginRegister()),
-                      );
-                    },
-                    child: Text(
-                      'Cadastre-se',
-                      style: TextStyle(color: Colors.white, fontSize: 16),
-                    ),
-                  ),
-                ],
+                );
+              },
+              child: Text(
+                'Cadastre-se',
+                style: TextStyle(color: Colors.white, fontSize: 16),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: Center(
+              child: Text(
+                '-------------------  Você não é aluno?  -------------------',
+                style: TextStyle(color: Colors.white, fontSize: 16),
+              ),
+            ),
+          ),
+          Center(
+            child: RaisedButton(
+              color: Colors.white70,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(0),
+              ),
+              onPressed: () => _onLoginButtonPressed(),
+              child: Text(
+                'Entre sem logar',
+                style: TextStyle(color: Colors.black54, fontSize: 16),
               ),
             ),
           ),
         ],
       ),
     );
+  }
+
+  _onLoginButtonPressed() {
+    _loginBloc.add(LoginButtonPressedEvent(
+      senha: "123456",
+      login: "-1",
+    ));
   }
 }

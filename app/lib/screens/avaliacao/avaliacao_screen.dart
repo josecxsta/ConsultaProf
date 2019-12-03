@@ -1,6 +1,8 @@
+import 'package:consulta_prof/blocs/login/login_bloc.dart';
 import 'package:consulta_prof/models/avaliacao_model.dart';
 import 'package:consulta_prof/screens/avaliacao/remove_avaliacao.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AvaliacaoScreen extends StatefulWidget {
   final AvaliacaoModel avaliacao;
@@ -12,6 +14,19 @@ class AvaliacaoScreen extends StatefulWidget {
 }
 
 class _AvaliacaoScreenState extends State<AvaliacaoScreen> {
+  LoginBloc _bloc;
+
+  @override
+  void initState() {
+    _bloc = BlocProvider.of<LoginBloc>(context);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     var avaliacao = this.widget.avaliacao;
@@ -96,23 +111,27 @@ class _AvaliacaoScreenState extends State<AvaliacaoScreen> {
           ),
         ],
       ),
-      floatingActionButton: Container(
-        decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
-        child: IconButton(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => RemoveAvaliacao(this.widget.avaliacao.id)),
-            );
-          },
-          icon: Icon(
-            Icons.flag,
-            color: Colors.red,
-          ),
-          color: Colors.white,
-        ),
-      ),
+      floatingActionButton: _bloc.state.login.token == '-1'
+          ? Container()
+          : Container(
+              decoration:
+                  BoxDecoration(shape: BoxShape.circle, color: Colors.blue),
+              child: IconButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            RemoveAvaliacao(this.widget.avaliacao.id)),
+                  );
+                },
+                icon: Icon(
+                  Icons.flag,
+                  color: Colors.red,
+                ),
+                color: Colors.white,
+              ),
+            ),
     );
   }
 }

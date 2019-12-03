@@ -5,21 +5,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
 
-        class LoginRegister extends StatefulWidget {
-        @override
-        _LoginRegisterState createState() => _LoginRegisterState();
-        }
+class LoginRegister extends StatefulWidget {
+  @override
+  _LoginRegisterState createState() => _LoginRegisterState();
+}
 
-        class _LoginRegisterState extends State<LoginRegister> {
-        @override
-        Widget build(BuildContext context) {
-        var usuario = TextEditingController();
-        var senha = TextEditingController();
-        var matricula = TextEditingController();
-        var codigoVerificacao = TextEditingController();
-        var email = TextEditingController();
+class _LoginRegisterState extends State<LoginRegister> {
+  @override
+  Widget build(BuildContext context) {
+    var usuario = TextEditingController();
+    var senha = TextEditingController();
+    var matricula = TextEditingController();
+    var codigoVerificacao = TextEditingController();
+    var email = TextEditingController();
 
-        return Scaffold(
+    return Scaffold(
       appBar: AppBar(),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -65,19 +65,17 @@ import 'package:flutter_masked_text/flutter_masked_text.dart';
               child: RaisedButton(
                 child: Text("Cadastrar"),
                 color: Colors.blueAccent,
-                onPressed: () async {              
-                  if (result.token.isNotEmpty) {
-                    var result = await _monteShowDialogConfirmacao(context);
-                    if (result) {
-                      await LoginService().registreLogin(
+                onPressed: () async {
+                  var result = await _monteShowDialogConfirmacao(context);
+                  if (result) {
+                    await LoginService().registreLogin(
                         apelido: usuario.text,
                         senha: senha.text,
                         matricula: matricula.text,
                         email: email.text,
                         codigoVerificacao: codigoVerificacao.text);
-                            
-                      Navigator.pop(context);
-                    }
+
+                    Navigator.pop(context);
                   }
                 },
               ),

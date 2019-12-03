@@ -25,17 +25,21 @@ class LoginService {
       return LoginModel(
           user: UserModel(nome: "Gustavo Henrique", id: 1), token: "d4fgas");
     }
+    if (usuario == "-1" && senha == "123456") {
+      return LoginModel(
+          user: UserModel(nome: "Usuário Falso", id: 1), token: "-1");
+    }
     throw Exception("Login ou senha inválido");
   }
 
-  Future registreLogin(String apelido, String senha, String matricula, String email, String codigoVerificacao) async {
+  Future registreLogin({String apelido, String senha, String matricula, String email, String codigoVerificacao}) async {
     var url = ApiUrlService().getApi('discentes');
     await ApiService().post(
       url,
       body: {
         "apelido": "${apelido}",
         "senha": "${senha}",
-        "matricula": "${matricula}"a,
+        "matricula": "${matricula}",
         "email": "${email}",
         "codigoVerificacao": "${codigoVerificacao}",
       },

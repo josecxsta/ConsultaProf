@@ -47,19 +47,21 @@ class _AvaliacoesScreenState extends State<AvaliacoesScreen> {
                 itemCount: avaliacoes.length,
                 itemBuilder: (context, index) {
                   var notaMedia = (avaliacoes[index].notaCoerencia +
-                      avaliacoes[index]?.notaPontualidade +
-                      avaliacoes[index]?.notaDidatica +
-                      avaliacoes[index]?.notaDisponibilidade) / 4;
+                          avaliacoes[index]?.notaPontualidade +
+                          avaliacoes[index]?.notaDidatica +
+                          avaliacoes[index]?.notaDisponibilidade) /
+                      4;
                   return Container(
                     height: 90,
                     alignment: Alignment.bottomLeft,
                     padding: const EdgeInsets.all(5.0),
                     child: RaisedButton(
-                      onPressed: (){
+                      onPressed: () {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => AvaliacaoScreen(avaliacoes[index])),
+                              builder: (context) =>
+                                  AvaliacaoScreen(avaliacoes[index])),
                         );
                       },
                       color: Colors.white70,

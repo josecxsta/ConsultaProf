@@ -45,7 +45,7 @@ class _LoginFormState extends State<LoginForm> {
       );
     }
     return Padding(
-      padding: const EdgeInsets.all(50),
+      padding: const EdgeInsets.all(20),
       child: Container(
         child: Column(
           children: <Widget>[
