@@ -57,16 +57,13 @@ avaliações disponíveis de docentes de uma universidade/unidade acadêmica.
 
 ### Identificação dos componentes do sistema
 
-- Portal UFGNet
 - Sistema de Informação de Atividades Acadêmicas da UFG (SIGAA)
 
 ### Identificação dos usuários finais
 
-- Discentes do Instituto de Informática da UFG. Eles irão avaliar e consultar
-avaliações anteriores dos discentes.
-- Docentes do Instituto de Informática da UFG.
-- Moderador: responsável pela fiscalização dos comentários e por atender
-pedidos de exclusão de avaliações.
+- Discentes: eles irão avaliar e consultar avaliações anteriores dos discentes.
+- Comunidade em geral: poderão acessar as avaliações e denunciá-las se achar necessário, sem
+que necessitem estar cadastrados no sistema para isso.
 
 ### Fontes de requisitos
 
@@ -85,22 +82,17 @@ sistema e realizar avaliações. Os dados necessários para a cadastro são: mat
 
 #### RF02
 
-Como docente, desejo requisitar um pedido de exclusão da avaliação para que não
-tenha comentários que ofendam o docente ou não sejam verdade. Esse pedido será
-avaliado pelo moderador e o docente será notificado através do e-mail.
+Como usuário da comunidade em geral, desejo poder denunciar avaliações ofensivas, caluniosas ou com informações erradas.
+Esse pedido será avaliado pelos administradores do sistema e eu serei notificado por email ao final da avaliação da 
+denúncia sobre as providências tomadas em relação a mesma.
 
 #### RF03
 
-Como sistema ConsultaProf, desejo importar do Portal UFGNet os dados de
-professores para que possa disponibilizar uma listagem dos professores para que os
-docentes escolham quem irão avaliar.
+Como sistema ConsultaProf, desejo importar os dados de docentes de determinada unidade acadêmica ou universidade
+para que possa disponibilizar uma listagem dos professores para que os discentes escolham quem irão avaliar ou
+consultar avaliações.
 
 #### RF04
-
-Como sistema ConsultaProf, desejo importar do SIGAA os dados dos alunos do INF
-para que possa validar o login do discente.
-
-#### RF05
 
 Como discente, desejo avaliar o docente para que tenha conteúdo onde os alunos
 possam consultar. Os dados relativos à disciplina avaliada são:
@@ -122,19 +114,19 @@ A avaliação contém também o critério “Cursaria alguma disciplina com o do
 novamente?”, no qual a resposta pode ser “Sim” ou “Não”. Por fim, o discente pode
 complementar sua avaliação adicionando um comentário e um título para o comentário.
 
+#### RF05
+
+Como usuário da comunidade em geral, desejo buscar o docente pelo nome para que seja mais fácil de
+encontrá-lo.
+
 #### RF06
 
-Como usuário, desejo buscar o docente pelo nome para que seja mais fácil de
+Como discente, desejo buscar o docente pelo nome para que seja mais fácil de
 encontrá-lo.
 
 #### RF07
 
-Como discente, desejo poder editar a avaliação do docente para que possa corrigir
-algum erro no momento da avaliação do discente.
-
-#### RF08
-
-Como discente, desejo escolher um nome/apelido no cadastro para não revelar minha
+Como discente, desejo escolher um apelido no cadastro para não revelar minha
 identidade.
 
 ### Requisitos não-funcionais
@@ -146,15 +138,13 @@ O sistema deve ser acessível através da plataforma móvel Android.
 #### RNF02
 
 As interfaces devem ser intuitivas, isto é, o usuário saberá usá-lo sem ler um manual
-ou qualquer tipo de treinamento, visto que o sistema será usado como entretenimento
-por usuários heterogêneos.
+ou qualquer tipo de treinamento.
 
 #### RNF03
 
 O sistema utilizará a versão 2.5 da linguagem Dart para o cliente mobile e TypeScript
-rodando no NodeJS para o servidor. Essas escolhas foram feitas baseadas na fácil
-curva de aprendizagem com essas linguagens e facilidade que existe para se trabalhar
-com web service com NodeJS.
+rodando no NodeJS para o servidor. Essas escolhas foram feitas baseadas no domínio destas linguagens
+por alguns integrantes da equipe e pela facilidade que existe para se trabalhar com web service com NodeJS.
 
 #### RNF04
 
@@ -177,8 +167,6 @@ O versionamento do projeto deve ser realizado pelo GitHub.
 #### RNF08
 
 Os testes do projeto devem ser realizados pela integração do Travis CI ao GitHub.
-
-### Diagrama de casos de uso:
 
 ### Casos de usos detalhados
 
